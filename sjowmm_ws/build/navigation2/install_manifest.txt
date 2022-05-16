@@ -1,0 +1,15 @@
+/home/student/sjowmm_ws/install/navigation2/share/ament_index/resource_index/package_run_dependencies/navigation2
+/home/student/sjowmm_ws/install/navigation2/share/ament_index/resource_index/parent_prefix_path/navigation2
+/home/student/sjowmm_ws/install/navigation2/share/navigation2/environment/ament_prefix_path.sh
+/home/student/sjowmm_ws/install/navigation2/share/navigation2/environment/ament_prefix_path.dsv
+/home/student/sjowmm_ws/install/navigation2/share/navigation2/environment/path.sh
+/home/student/sjowmm_ws/install/navigation2/share/navigation2/environment/path.dsv
+/home/student/sjowmm_ws/install/navigation2/share/navigation2/local_setup.bash
+/home/student/sjowmm_ws/install/navigation2/share/navigation2/local_setup.sh
+/home/student/sjowmm_ws/install/navigation2/share/navigation2/local_setup.zsh
+/home/student/sjowmm_ws/install/navigation2/share/navigation2/local_setup.dsv
+/home/student/sjowmm_ws/install/navigation2/share/navigation2/package.dsv
+/home/student/sjowmm_ws/install/navigation2/share/ament_index/resource_index/packages/navigation2
+/home/student/sjowmm_ws/install/navigation2/share/navigation2/cmake/navigation2Config.cmake
+/home/student/sjowmm_ws/install/navigation2/share/navigation2/cmake/navigation2Config-version.cmake
+/home/student/sjowmm_ws/install/navigation2/share/navigation2/package.xml

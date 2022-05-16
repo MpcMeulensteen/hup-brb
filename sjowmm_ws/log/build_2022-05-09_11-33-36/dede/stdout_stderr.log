@@ -1,0 +1,62 @@
+running egg_info
+creating ../../build/dede/dede.egg-info
+writing ../../build/dede/dede.egg-info/PKG-INFO
+writing dependency_links to ../../build/dede/dede.egg-info/dependency_links.txt
+writing entry points to ../../build/dede/dede.egg-info/entry_points.txt
+writing requirements to ../../build/dede/dede.egg-info/requires.txt
+writing top-level names to ../../build/dede/dede.egg-info/top_level.txt
+writing manifest file '../../build/dede/dede.egg-info/SOURCES.txt'
+reading manifest file '../../build/dede/dede.egg-info/SOURCES.txt'
+writing manifest file '../../build/dede/dede.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/sjowmm_ws/build/dede/build
+creating /home/student/sjowmm_ws/build/dede/build/lib
+creating /home/student/sjowmm_ws/build/dede/build/lib/dede
+copying dede/__init__.py -> /home/student/sjowmm_ws/build/dede/build/lib/dede
+running install
+running install_lib
+creating /home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages/dede
+copying /home/student/sjowmm_ws/build/dede/build/lib/dede/__init__.py -> /home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages/dede
+byte-compiling /home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages/dede/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/student/sjowmm_ws/install/dede/share/ament_index
+creating /home/student/sjowmm_ws/install/dede/share/ament_index/resource_index
+creating /home/student/sjowmm_ws/install/dede/share/ament_index/resource_index/packages
+copying resource/dede -> /home/student/sjowmm_ws/install/dede/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/sjowmm_ws/install/dede/share/dede
+creating /home/student/sjowmm_ws/install/dede/share/dede/launch
+copying launch/simulation.launch.py -> /home/student/sjowmm_ws/install/dede/share/dede/launch
+copying launch/slam_toolbox.launch.py -> /home/student/sjowmm_ws/install/dede/share/dede/launch
+copying launch/nav2_slam.launch.py -> /home/student/sjowmm_ws/install/dede/share/dede/launch
+creating /home/student/sjowmm_ws/install/dede/share/dede/worlds
+copying worlds/base_maze.model -> /home/student/sjowmm_ws/install/dede/share/dede/worlds
+creating /home/student/sjowmm_ws/install/dede/share/dede/urdf
+copying urdf/dede.urdf -> /home/student/sjowmm_ws/install/dede/share/dede/urdf
+creating /home/student/sjowmm_ws/install/dede/share/dede/config
+creating /home/student/sjowmm_ws/install/dede/share/dede/config/slam
+copying config/slam/mapping.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/slam
+copying config/slam/localization.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/slam
+creating /home/student/sjowmm_ws/install/dede/share/dede/config/nav2
+copying config/nav2/controller_dwb.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/nav2
+copying config/nav2/recoveries.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/nav2
+copying config/nav2/waypoint.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/nav2
+copying config/nav2/bt_navigator.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/nav2
+copying config/nav2/planner.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/nav2
+creating /home/student/sjowmm_ws/install/dede/share/dede/models
+creating /home/student/sjowmm_ws/install/dede/share/dede/models/dede
+copying models/dede/model.config -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede
+copying models/dede/model.sdf -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede
+creating /home/student/sjowmm_ws/install/dede/share/dede/models/dede/meshes
+copying models/dede/meshes/wheel.stl -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede/meshes
+copying models/dede/meshes/base.stl -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede/meshes
+copying models/dede/meshes/lidar.stl -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede/meshes
+creating /home/student/sjowmm_ws/install/dede/share/dede/models/dede_maze
+copying models/dede_maze/model.config -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede_maze
+copying models/dede_maze/model.sdf -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede_maze
+creating /home/student/sjowmm_ws/install/dede/share/dede/models/dede_maze/meshes
+copying models/dede_maze/meshes/maze.stl -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede_maze/meshes
+running install_egg_info
+Copying ../../build/dede/dede.egg-info to /home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages/dede-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/student/sjowmm_ws/build/dede/install.log'

@@ -1,0 +1,40 @@
+[0.017s] Invoking command in '/home/student/sjowmm_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_behavior_tree/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_bt_navigator -- -j12 -l12
+[0.094s] [ 60%] Built target bt_navigator_core
+[0.128s] [100%] Built target bt_navigator
+[0.139s] Invoked command in '/home/student/sjowmm_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_behavior_tree/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_bt_navigator -- -j12 -l12
+[0.161s] Invoking command in '/home/student/sjowmm_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_behavior_tree/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_bt_navigator
+[0.169s] -- Install configuration: "Release"
+[0.171s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/lib/libbt_navigator_core.so
+[0.172s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/lib/nav2_bt_navigator/bt_navigator
+[0.172s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/include/
+[0.172s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/include//nav2_bt_navigator
+[0.173s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/ros_topic_logger.hpp
+[0.173s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/bt_navigator.hpp
+[0.174s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees
+[0.174s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_distance.xml
+[0.174s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_and_round_robin_recovery.xml
+[0.174s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_speed.xml
+[0.174s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_time.xml
+[0.175s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_and_recovery.xml
+[0.175s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/follow_point.xml
+[0.175s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.sh
+[0.175s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.dsv
+[0.175s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/ament_index/resource_index/package_run_dependencies/nav2_bt_navigator
+[0.176s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/ament_index/resource_index/parent_prefix_path/nav2_bt_navigator
+[0.176s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.sh
+[0.176s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.dsv
+[0.176s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.sh
+[0.176s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.dsv
+[0.176s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.bash
+[0.176s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.sh
+[0.176s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.zsh
+[0.176s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.dsv
+[0.176s] -- Installing: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.dsv
+[0.177s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/ament_index/resource_index/packages/nav2_bt_navigator
+[0.177s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.177s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_libraries-extras.cmake
+[0.177s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.177s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig.cmake
+[0.177s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig-version.cmake
+[0.177s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.xml
+[0.180s] Invoked command in '/home/student/sjowmm_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_behavior_tree/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_bt_navigator

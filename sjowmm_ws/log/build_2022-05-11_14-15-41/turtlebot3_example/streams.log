@@ -1,0 +1,24 @@
+[1.787s] Invoking command in '/home/student/sjowmm_ws/src/turtlebot3/turtlebot3_example': PYTHONPATH=/home/student/sjowmm_ws/install/turtlebot3_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/student/sjowmm_ws/build/turtlebot3_example/build install --prefix /home/student/sjowmm_ws/install/turtlebot3_example --record /home/student/sjowmm_ws/build/turtlebot3_example/install.log --single-version-externally-managed
+[2.029s] running egg_info
+[2.030s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[2.040s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[2.040s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[2.040s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[2.041s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[2.072s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[2.073s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[2.084s] running build
+[2.084s] running build_py
+[2.085s] running install
+[2.086s] running install_lib
+[2.088s] running install_data
+[2.088s] running install_egg_info
+[2.089s] removing '/home/student/sjowmm_ws/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.4-py3.8.egg-info' (and everything under it)
+[2.090s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/student/sjowmm_ws/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.4-py3.8.egg-info
+[2.090s] running install_scripts
+[2.105s] Installing turtlebot3_obstacle_detection script to /home/student/sjowmm_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.125s] Installing turtlebot3_patrol_client script to /home/student/sjowmm_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.127s] Installing turtlebot3_patrol_server script to /home/student/sjowmm_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.127s] Installing turtlebot3_position_control script to /home/student/sjowmm_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.127s] writing list of installed files to '/home/student/sjowmm_ws/build/turtlebot3_example/install.log'
+[2.299s] Invoked command in '/home/student/sjowmm_ws/src/turtlebot3/turtlebot3_example' returned '0': PYTHONPATH=/home/student/sjowmm_ws/install/turtlebot3_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/student/sjowmm_ws/build/turtlebot3_example/build install --prefix /home/student/sjowmm_ws/install/turtlebot3_example --record /home/student/sjowmm_ws/build/turtlebot3_example/install.log --single-version-externally-managed

@@ -1,0 +1,21 @@
+[2.201s] Invoking command in '/home/student/sjowmm_ws/src/green_turtle': PYTHONPATH=/home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/green_turtle build --build-base /home/student/sjowmm_ws/build/green_turtle/build install --prefix /home/student/sjowmm_ws/install/green_turtle --record /home/student/sjowmm_ws/build/green_turtle/install.log --single-version-externally-managed
+[2.700s] running egg_info
+[2.701s] writing ../../build/green_turtle/green_turtle.egg-info/PKG-INFO
+[2.701s] writing dependency_links to ../../build/green_turtle/green_turtle.egg-info/dependency_links.txt
+[2.701s] writing entry points to ../../build/green_turtle/green_turtle.egg-info/entry_points.txt
+[2.702s] writing requirements to ../../build/green_turtle/green_turtle.egg-info/requires.txt
+[2.702s] writing top-level names to ../../build/green_turtle/green_turtle.egg-info/top_level.txt
+[2.742s] reading manifest file '../../build/green_turtle/green_turtle.egg-info/SOURCES.txt'
+[2.744s] writing manifest file '../../build/green_turtle/green_turtle.egg-info/SOURCES.txt'
+[2.745s] running build
+[2.745s] running build_py
+[2.747s] running install
+[2.747s] running install_lib
+[2.749s] running install_data
+[2.760s] running install_egg_info
+[2.768s] removing '/home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle-0.0.0-py3.8.egg-info' (and everything under it)
+[2.768s] Copying ../../build/green_turtle/green_turtle.egg-info to /home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle-0.0.0-py3.8.egg-info
+[2.768s] running install_scripts
+[2.795s] Installing node script to /home/student/sjowmm_ws/install/green_turtle/lib/green_turtle
+[2.796s] writing list of installed files to '/home/student/sjowmm_ws/build/green_turtle/install.log'
+[3.200s] Invoked command in '/home/student/sjowmm_ws/src/green_turtle' returned '0': PYTHONPATH=/home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/green_turtle build --build-base /home/student/sjowmm_ws/build/green_turtle/build install --prefix /home/student/sjowmm_ws/install/green_turtle --record /home/student/sjowmm_ws/build/green_turtle/install.log --single-version-externally-managed

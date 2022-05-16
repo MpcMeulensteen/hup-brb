@@ -1,0 +1,64 @@
+[0.060s] Invoking command in '/home/student/sjowmm_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/student/sjowmm_ws/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/turtlebot3_description
+[1.438s] -- The C compiler identification is GNU 9.4.0
+[1.439s] -- The CXX compiler identification is GNU 9.4.0
+[1.439s] -- Check for working C compiler: /usr/bin/cc
+[1.439s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.439s] -- Detecting C compiler ABI info
+[1.439s] -- Detecting C compiler ABI info - done
+[1.439s] -- Detecting C compile features
+[1.440s] -- Detecting C compile features - done
+[1.440s] -- Check for working CXX compiler: /usr/bin/c++
+[1.441s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.441s] -- Detecting CXX compiler ABI info
+[1.441s] -- Detecting CXX compiler ABI info - done
+[1.442s] -- Detecting CXX compile features
+[1.442s] -- Detecting CXX compile features - done
+[1.444s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.445s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.445s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.446s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[1.448s] -- Configuring done
+[1.450s] -- Generating done
+[1.451s] -- Build files have been written to: /home/student/sjowmm_ws/build/turtlebot3_description
+[1.475s] Invoked command in '/home/student/sjowmm_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/student/sjowmm_ws/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/turtlebot3_description
+[1.477s] Invoking command in '/home/student/sjowmm_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/sjowmm_ws/build/turtlebot3_description -- -j12 -l12
+[1.499s] Invoked command in '/home/student/sjowmm_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/sjowmm_ws/build/turtlebot3_description -- -j12 -l12
+[1.559s] Invoking command in '/home/student/sjowmm_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/sjowmm_ws/build/turtlebot3_description
+[1.816s] -- Install configuration: ""
+[1.816s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes
+[1.816s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels
+[1.816s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[1.816s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[1.817s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors
+[1.817s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[1.817s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[1.817s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[1.817s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[1.817s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[1.817s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases
+[1.817s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[1.817s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[1.817s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[1.817s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/rviz
+[1.818s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[1.818s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/urdf
+[1.818s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[1.818s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[1.818s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[1.819s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[1.819s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[1.819s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[1.819s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[1.819s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[1.819s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[1.819s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[1.819s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[1.819s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[1.819s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[1.820s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[1.820s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[1.820s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[1.820s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[1.820s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[1.820s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[1.888s] Invoked command in '/home/student/sjowmm_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/sjowmm_ws/build/turtlebot3_description

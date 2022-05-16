@@ -1,0 +1,58 @@
+running egg_info
+creating ../../build/green_turtle/green_turtle.egg-info
+writing ../../build/green_turtle/green_turtle.egg-info/PKG-INFO
+writing dependency_links to ../../build/green_turtle/green_turtle.egg-info/dependency_links.txt
+writing entry points to ../../build/green_turtle/green_turtle.egg-info/entry_points.txt
+writing requirements to ../../build/green_turtle/green_turtle.egg-info/requires.txt
+writing top-level names to ../../build/green_turtle/green_turtle.egg-info/top_level.txt
+writing manifest file '../../build/green_turtle/green_turtle.egg-info/SOURCES.txt'
+reading manifest file '../../build/green_turtle/green_turtle.egg-info/SOURCES.txt'
+writing manifest file '../../build/green_turtle/green_turtle.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/sjowmm_ws/build/green_turtle/build
+creating /home/student/sjowmm_ws/build/green_turtle/build/lib
+creating /home/student/sjowmm_ws/build/green_turtle/build/lib/green_turtle
+copying green_turtle/test.py -> /home/student/sjowmm_ws/build/green_turtle/build/lib/green_turtle
+copying green_turtle/__init__.py -> /home/student/sjowmm_ws/build/green_turtle/build/lib/green_turtle
+running install
+running install_lib
+creating /home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle
+copying /home/student/sjowmm_ws/build/green_turtle/build/lib/green_turtle/test.py -> /home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle
+copying /home/student/sjowmm_ws/build/green_turtle/build/lib/green_turtle/__init__.py -> /home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle
+byte-compiling /home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle/test.py to test.cpython-38.pyc
+byte-compiling /home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/student/sjowmm_ws/install/green_turtle/share/ament_index
+creating /home/student/sjowmm_ws/install/green_turtle/share/ament_index/resource_index
+creating /home/student/sjowmm_ws/install/green_turtle/share/ament_index/resource_index/packages
+copying resource/green_turtle -> /home/student/sjowmm_ws/install/green_turtle/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle
+creating /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/launch
+copying launch/simulation_world.launch.py -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/launch
+creating /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/worlds
+copying worlds/maze.model -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/worlds
+creating /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models
+creating /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze
+copying models/maze/model.config -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze
+copying models/maze/model.sdf -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze
+creating /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+copying models/maze/meshes/maze.dae -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+copying models/maze/meshes/3.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+copying models/maze/meshes/6.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+copying models/maze/meshes/8.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+copying models/maze/meshes/9.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+copying models/maze/meshes/2.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+copying models/maze/meshes/4.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+copying models/maze/meshes/0.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+copying models/maze/meshes/7.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+copying models/maze/meshes/1.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+copying models/maze/meshes/5.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+creating /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/turtlebot3_waffle_custom
+copying models/turtlebot3_waffle_custom/model.config -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/turtlebot3_waffle_custom
+copying models/turtlebot3_waffle_custom/model.sdf -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/turtlebot3_waffle_custom
+running install_egg_info
+Copying ../../build/green_turtle/green_turtle.egg-info to /home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle-0.0.0-py3.8.egg-info
+running install_scripts
+Installing node script to /home/student/sjowmm_ws/install/green_turtle/lib/green_turtle
+writing list of installed files to '/home/student/sjowmm_ws/build/green_turtle/install.log'

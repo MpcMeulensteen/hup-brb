@@ -1,0 +1,54 @@
+[0.036s] Invoking command in '/home/student/sjowmm_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_amcl -- -j12 -l12
+[0.122s] [ 23%] Built target map_lib
+[0.134s] [ 50%] Built target pf_lib
+[0.177s] [ 69%] Built target sensors_lib
+[0.178s] [ 84%] Built target motions_lib
+[0.232s] [ 92%] Built target amcl_core
+[0.290s] [100%] Built target amcl
+[0.333s] Invoked command in '/home/student/sjowmm_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_amcl -- -j12 -l12
+[0.401s] Invoking command in '/home/student/sjowmm_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_amcl
+[0.409s] -- Install configuration: "Release"
+[0.413s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/lib/libamcl_core.so
+[0.413s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/lib/nav2_amcl/amcl
+[0.413s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include/
+[0.414s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl
+[0.414s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp
+[0.414s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/pf
+[0.416s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp
+[0.416s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp
+[0.416s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp
+[0.416s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp
+[0.416s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp
+[0.416s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/angleutils.hpp
+[0.416s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/sensors
+[0.416s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser
+[0.417s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp
+[0.417s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/map
+[0.417s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/map/map.hpp
+[0.417s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/motion_model
+[0.418s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp
+[0.422s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh
+[0.422s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv
+[0.425s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl
+[0.425s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl
+[0.426s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh
+[0.426s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv
+[0.426s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/environment/path.sh
+[0.426s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/environment/path.dsv
+[0.426s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/local_setup.bash
+[0.427s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/local_setup.sh
+[0.427s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/local_setup.zsh
+[0.427s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/local_setup.dsv
+[0.427s] -- Installing: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/package.dsv
+[0.427s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl
+[0.427s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.428s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake
+[0.428s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.428s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake
+[0.428s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake
+[0.428s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/share/nav2_amcl/package.xml
+[0.428s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/lib/libpf_lib.so
+[0.428s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/lib/libmap_lib.so
+[0.429s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/lib/libmotions_lib.so
+[0.429s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_amcl/lib/libsensors_lib.so
+[0.440s] Invoked command in '/home/student/sjowmm_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_amcl

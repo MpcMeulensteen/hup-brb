@@ -1,0 +1,194 @@
+[0.014s] Invoking command in '/home/student/sjowmm_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/sjowmm_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/nav2_util
+[0.081s] -- The C compiler identification is GNU 9.4.0
+[0.147s] -- The CXX compiler identification is GNU 9.4.0
+[0.153s] -- Check for working C compiler: /usr/bin/cc
+[0.235s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.236s] -- Detecting C compiler ABI info
+[0.319s] -- Detecting C compiler ABI info - done
+[0.332s] -- Detecting C compile features
+[0.332s] -- Detecting C compile features - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.429s] -- Detecting CXX compiler ABI info
+[0.526s] -- Detecting CXX compiler ABI info - done
+[0.541s] -- Detecting CXX compile features
+[0.541s] -- Detecting CXX compile features - done
+[0.544s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.577s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.577s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.835s] -- Found nav2_common: 0.4.7 (/home/student/sjowmm_ws/install/nav2_common/share/nav2_common/cmake)
+[0.835s] -- Found nav2_msgs: 0.4.7 (/home/student/sjowmm_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[0.867s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.875s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.969s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.006s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.566s] -- Found tf2_ros: 0.13.9 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.636s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.638s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.639s] -- Looking for pthread.h
+[1.720s] -- Looking for pthread.h - found
+[1.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.806s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.806s] -- Looking for pthread_create in pthreads
+[1.873s] -- Looking for pthread_create in pthreads - not found
+[1.873s] -- Looking for pthread_create in pthread
+[1.958s] -- Looking for pthread_create in pthread - found
+[1.959s] -- Found Threads: TRUE  
+[2.453s] -- Found tf2_geometry_msgs: 0.13.9 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.466s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.472s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.504s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[2.524s] -- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)
+[2.594s] -- Found rclcpp_lifecycle: 2.3.0 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[2.618s] -- Setting build type to Release as none was specified.
+[2.643s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: program_options 
+[2.647s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.650s] -- Found ament_cmake_pytest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)
+[2.653s] -- Found launch_testing_ament_cmake: 0.10.4 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+[2.655s] -- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.680s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.688s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.688s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.688s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.688s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.714s] -- Found PythonExtra: .so  
+[2.850s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.853s] -- Check if compiler accepts -pthread
+[2.938s] -- Check if compiler accepts -pthread - yes
+[2.979s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.982s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.982s] -- Configured cppcheck include dirs: /home/student/sjowmm_ws/src/navigation2/nav2_util/include
+[2.983s] -- Configured cppcheck exclude dirs and/or files: 
+[2.985s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.985s] -- Configured cpplint exclude dirs and/or files: 
+[2.986s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.987s] -- Added test 'lint_cmake' to check CMake code style
+[2.988s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.990s] -- Added test 'uncrustify' to check C / C++ code style
+[2.990s] -- Configured uncrustify additional arguments: 
+[2.990s] -- Added test 'xmllint' to check XML markup files
+[2.997s] -- Configuring done
+[3.141s] -- Generating done
+[3.146s] -- Build files have been written to: /home/student/sjowmm_ws/build/nav2_util
+[3.165s] Invoked command in '/home/student/sjowmm_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/sjowmm_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/nav2_util
+[3.169s] Invoking command in '/home/student/sjowmm_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_util -- -j12 -l12
+[3.226s] [35m[1mScanning dependencies of target dump_params[0m
+[3.226s] [35m[1mScanning dependencies of target gtest[0m
+[3.226s] [35m[1mScanning dependencies of target gtest_main[0m
+[3.226s] [35m[1mScanning dependencies of target nav2_util_core[0m
+[3.245s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.249s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.267s] [  7%] [32mBuilding CXX object src/CMakeFiles/dump_params.dir/dump_params.cpp.o[0m
+[3.370s] [ 17%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[3.370s] [ 17%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[3.370s] [ 17%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[3.370s] [ 17%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[3.375s] [ 20%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[3.387s] [ 22%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[3.395s] [ 25%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[3.401s] [ 27%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[3.407s] [ 30%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[5.049s] [ 32%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.204s] [ 32%] Built target gtest_main
+[14.858s] [ 35%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[15.150s] [ 35%] Built target nav2_util_core
+[15.168s] [35m[1mScanning dependencies of target lifecycle_bringup[0m
+[15.208s] [ 37%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[16.006s] [ 40%] [32m[1mLinking CXX static library libgtest.a[0m
+[16.067s] [ 40%] Built target gtest
+[16.086s] [35m[1mScanning dependencies of target test_service_client[0m
+[16.087s] [35m[1mScanning dependencies of target test_execution_timer[0m
+[16.087s] [35m[1mScanning dependencies of target test_geometry_utils[0m
+[16.087s] [35m[1mScanning dependencies of target test_lifecycle_node[0m
+[16.092s] [35m[1mScanning dependencies of target test_string_utils[0m
+[16.092s] [35m[1mScanning dependencies of target test_actions[0m
+[16.097s] [35m[1mScanning dependencies of target test_odometry_utils[0m
+[16.100s] [35m[1mScanning dependencies of target test_lifecycle_utils[0m
+[16.109s] [35m[1mScanning dependencies of target test_node_utils[0m
+[16.113s] [35m[1mScanning dependencies of target test_lifecycle_cli_node[0m
+[16.132s] [ 42%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[16.166s] [ 45%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[16.194s] [ 47%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[16.196s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[16.196s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[16.200s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[16.211s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[16.222s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[16.242s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[16.292s] [ 65%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[16.299s] [ 67%] [32m[1mLinking CXX executable dump_params[0m
+[16.954s] [ 67%] Built target dump_params
+[17.017s] [35m[1mScanning dependencies of target test_robot_utils[0m
+[17.145s] [ 70%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[19.618s] [ 72%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[19.862s] [ 75%] [32m[1mLinking CXX executable test_execution_timer[0m
+[19.997s] [ 77%] [32m[1mLinking CXX executable test_string_utils[0m
+[20.129s] [ 77%] Built target lifecycle_bringup
+[20.405s] [ 77%] Built target test_execution_timer
+[20.517s] [ 77%] Built target test_string_utils
+[23.440s] [ 80%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[23.806s] [ 80%] Built target test_geometry_utils
+[24.223s] [ 82%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[24.376s] [ 85%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[24.535s] [ 87%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[24.795s] [ 87%] Built target test_lifecycle_node
+[25.058s] [ 87%] Built target test_lifecycle_utils
+[25.194s] [ 87%] Built target test_lifecycle_cli_node
+[25.661s] [ 90%] [32m[1mLinking CXX executable test_robot_utils[0m
+[26.014s] [ 92%] [32m[1mLinking CXX executable test_service_client[0m
+[26.052s] [ 92%] Built target test_robot_utils
+[26.338s] [ 92%] Built target test_service_client
+[26.440s] [ 95%] [32m[1mLinking CXX executable test_node_utils[0m
+[26.719s] [ 95%] Built target test_node_utils
+[28.097s] [ 97%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[28.374s] [ 97%] Built target test_odometry_utils
+[38.318s] [100%] [32m[1mLinking CXX executable test_actions[0m
+[38.598s] [100%] Built target test_actions
+[38.612s] Invoked command in '/home/student/sjowmm_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_util -- -j12 -l12
+[38.649s] Invoking command in '/home/student/sjowmm_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_util
+[38.660s] -- Install configuration: "Release"
+[38.660s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include/
+[38.660s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util
+[38.660s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[38.660s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[38.661s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/string_utils.hpp
+[38.661s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/execution_timer.hpp
+[38.661s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/node_utils.hpp
+[38.662s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/line_iterator.hpp
+[38.662s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/costmap.hpp
+[38.662s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/service_client.hpp
+[38.662s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/node_thread.hpp
+[38.662s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/robot_utils.hpp
+[38.662s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[38.663s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[38.663s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[38.663s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[38.663s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[38.663s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/environment/library_path.sh
+[38.663s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[38.663s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[38.663s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[38.663s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[38.663s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[38.664s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/environment/path.sh
+[38.664s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/environment/path.dsv
+[38.664s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/local_setup.bash
+[38.664s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/local_setup.sh
+[38.664s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/local_setup.zsh
+[38.664s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/local_setup.dsv
+[38.664s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/package.dsv
+[38.664s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[38.664s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.665s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[38.665s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.665s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[38.665s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[38.665s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/share/nav2_util/package.xml
+[38.665s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/lib/libnav2_util_core.so
+[38.666s] -- Set runtime path of "/home/student/sjowmm_ws/install/nav2_util/lib/libnav2_util_core.so" to ""
+[38.666s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[38.666s] -- Set runtime path of "/home/student/sjowmm_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup" to ""
+[38.666s] -- Installing: /home/student/sjowmm_ws/install/nav2_util/lib/nav2_util/dump_params
+[38.667s] -- Set runtime path of "/home/student/sjowmm_ws/install/nav2_util/lib/nav2_util/dump_params" to ""
+[38.671s] Invoked command in '/home/student/sjowmm_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_util

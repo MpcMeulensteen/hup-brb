@@ -1,0 +1,25 @@
+[1.048s] Invoking command in '/home/student/sjowmm_ws/src/simulation': PYTHONPATH=/home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simulation build --build-base /home/student/sjowmm_ws/build/simulation/build install --prefix /home/student/sjowmm_ws/install/simulation --record /home/student/sjowmm_ws/build/simulation/install.log --single-version-externally-managed
+[1.938s] running egg_info
+[1.941s] writing ../../build/simulation/simulation.egg-info/PKG-INFO
+[1.941s] writing dependency_links to ../../build/simulation/simulation.egg-info/dependency_links.txt
+[1.942s] writing entry points to ../../build/simulation/simulation.egg-info/entry_points.txt
+[1.942s] writing requirements to ../../build/simulation/simulation.egg-info/requires.txt
+[1.942s] writing top-level names to ../../build/simulation/simulation.egg-info/top_level.txt
+[2.064s] reading manifest file '../../build/simulation/simulation.egg-info/SOURCES.txt'
+[2.069s] writing manifest file '../../build/simulation/simulation.egg-info/SOURCES.txt'
+[2.069s] running build
+[2.069s] running build_py
+[2.070s] copying simulation/readMapData.py -> /home/student/sjowmm_ws/build/simulation/build/lib/simulation
+[2.070s] running install
+[2.073s] running install_lib
+[2.077s] copying /home/student/sjowmm_ws/build/simulation/build/lib/simulation/readMapData.py -> /home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages/simulation
+[2.078s] byte-compiling /home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages/simulation/readMapData.py to readMapData.cpython-38.pyc
+[2.082s] running install_data
+[2.086s] running install_egg_info
+[2.090s] removing '/home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages/simulation-0.0.0-py3.8.egg-info' (and everything under it)
+[2.091s] Copying ../../build/simulation/simulation.egg-info to /home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages/simulation-0.0.0-py3.8.egg-info
+[2.094s] running install_scripts
+[2.164s] Installing readMapData script to /home/student/sjowmm_ws/install/simulation/lib/simulation
+[2.164s] Installing spawn_robot_srv script to /home/student/sjowmm_ws/install/simulation/lib/simulation
+[2.165s] writing list of installed files to '/home/student/sjowmm_ws/build/simulation/install.log'
+[2.278s] Invoked command in '/home/student/sjowmm_ws/src/simulation' returned '0': PYTHONPATH=/home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simulation build --build-base /home/student/sjowmm_ws/build/simulation/build install --prefix /home/student/sjowmm_ws/install/simulation --record /home/student/sjowmm_ws/build/simulation/install.log --single-version-externally-managed

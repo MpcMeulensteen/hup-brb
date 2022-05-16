@@ -1,0 +1,59 @@
+[0.087s] Invoking command in '/home/student/sjowmm_ws/build/smac_planner': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/smac_planner -- -j12 -l12
+[0.350s] [ 17%] Built target smac_planner_2d
+[0.350s] [ 35%] Built target smac_planner
+[0.350s] [ 41%] Built target gtest_main
+[0.350s] [ 47%] Built target gtest
+[0.434s] [ 52%] Built target test_a_star
+[0.464s] [ 58%] Built target test_node2d
+[0.468s] [ 64%] Built target test_costmap_downsampler
+[0.472s] [ 70%] Built target test_nodese2
+[0.490s] [ 76%] Built target test_smac_se2
+[0.496s] [ 82%] Built target test_nodebasic
+[0.514s] [ 88%] Built target test_collision_checker
+[0.534s] [ 94%] Built target test_smoother
+[0.536s] [100%] Built target test_smac_2d
+[0.598s] Invoked command in '/home/student/sjowmm_ws/build/smac_planner' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/smac_planner -- -j12 -l12
+[0.709s] Invoking command in '/home/student/sjowmm_ws/build/smac_planner': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/smac_planner
+[0.722s] -- Install configuration: "Release"
+[0.723s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/smac_plugin.xml
+[0.724s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/smac_plugin_2d.xml
+[0.724s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/lib/libsmac_planner.so
+[0.724s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/lib/libsmac_planner_2d.so
+[0.724s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include/
+[0.724s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner
+[0.724s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner/types.hpp
+[0.726s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner/costmap_downsampler.hpp
+[0.726s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner/smac_planner_2d.hpp
+[0.726s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner/constants.hpp
+[0.726s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner/node_basic.hpp
+[0.727s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner/smoother_cost_function.hpp
+[0.727s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner/smac_planner.hpp
+[0.728s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner/a_star.hpp
+[0.728s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner/collision_checker.hpp
+[0.728s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner/node_2d.hpp
+[0.730s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner/smoother.hpp
+[0.730s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner/node_se2.hpp
+[0.730s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/include//smac_planner/options.hpp
+[0.730s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/environment/library_path.sh
+[0.730s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/environment/library_path.dsv
+[0.731s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/ament_index/resource_index/package_run_dependencies/smac_planner
+[0.731s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/ament_index/resource_index/parent_prefix_path/smac_planner
+[0.731s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/environment/ament_prefix_path.sh
+[0.732s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/environment/ament_prefix_path.dsv
+[0.732s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/environment/path.sh
+[0.732s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/environment/path.dsv
+[0.732s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/local_setup.bash
+[0.732s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/local_setup.sh
+[0.732s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/local_setup.zsh
+[0.734s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/local_setup.dsv
+[0.735s] -- Installing: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/package.dsv
+[0.735s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/ament_index/resource_index/packages/smac_planner
+[0.735s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/smac_planner
+[0.735s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.735s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[0.735s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.737s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_definitions-extras.cmake
+[0.738s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/cmake/smac_plannerConfig.cmake
+[0.738s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/cmake/smac_plannerConfig-version.cmake
+[0.739s] -- Up-to-date: /home/student/sjowmm_ws/install/smac_planner/share/smac_planner/package.xml
+[0.798s] Invoked command in '/home/student/sjowmm_ws/build/smac_planner' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/smac_planner

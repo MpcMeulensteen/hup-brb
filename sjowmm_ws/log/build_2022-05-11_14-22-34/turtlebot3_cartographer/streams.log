@@ -1,0 +1,27 @@
+[0.091s] Invoking command in '/home/student/sjowmm_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/sjowmm_ws/install/turtlebot3_teleop:/home/student/sjowmm_ws/install/turtlebot3_example:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/path_projection:/home/student/sjowmm_ws/install/nav2_gazebo_spawner:/home/student/sjowmm_ws/install/green_turtle:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy /usr/bin/cmake --build /home/student/sjowmm_ws/build/turtlebot3_cartographer -- -j12 -l12
+[1.500s] Invoked command in '/home/student/sjowmm_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/sjowmm_ws/install/turtlebot3_teleop:/home/student/sjowmm_ws/install/turtlebot3_example:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/path_projection:/home/student/sjowmm_ws/install/nav2_gazebo_spawner:/home/student/sjowmm_ws/install/green_turtle:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy /usr/bin/cmake --build /home/student/sjowmm_ws/build/turtlebot3_cartographer -- -j12 -l12
+[1.562s] Invoking command in '/home/student/sjowmm_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/sjowmm_ws/install/turtlebot3_teleop:/home/student/sjowmm_ws/install/turtlebot3_example:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/path_projection:/home/student/sjowmm_ws/install/nav2_gazebo_spawner:/home/student/sjowmm_ws/install/green_turtle:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy /usr/bin/cmake --install /home/student/sjowmm_ws/build/turtlebot3_cartographer
+[1.592s] -- Install configuration: ""
+[1.593s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[1.593s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.593s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[1.594s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.594s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.594s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[1.594s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.594s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.594s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.595s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.595s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.595s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.595s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.595s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.596s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.596s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.596s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.596s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.596s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.596s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.596s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.597s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.622s] Invoked command in '/home/student/sjowmm_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/sjowmm_ws/install/turtlebot3_teleop:/home/student/sjowmm_ws/install/turtlebot3_example:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/path_projection:/home/student/sjowmm_ws/install/nav2_gazebo_spawner:/home/student/sjowmm_ws/install/green_turtle:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy /usr/bin/cmake --install /home/student/sjowmm_ws/build/turtlebot3_cartographer

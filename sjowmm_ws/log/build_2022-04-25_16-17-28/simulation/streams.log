@@ -1,0 +1,35 @@
+[0.237s] Invoking command in '/home/student/sjowmm_ws/src/simulation': PYTHONPATH=/home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simulation build --build-base /home/student/sjowmm_ws/build/simulation/build install --prefix /home/student/sjowmm_ws/install/simulation --record /home/student/sjowmm_ws/build/simulation/install.log --single-version-externally-managed
+[0.451s] running egg_info
+[0.451s] writing ../../build/simulation/simulation.egg-info/PKG-INFO
+[0.451s] writing dependency_links to ../../build/simulation/simulation.egg-info/dependency_links.txt
+[0.452s] writing entry points to ../../build/simulation/simulation.egg-info/entry_points.txt
+[0.452s] writing requirements to ../../build/simulation/simulation.egg-info/requires.txt
+[0.452s] writing top-level names to ../../build/simulation/simulation.egg-info/top_level.txt
+[0.491s] reading manifest file '../../build/simulation/simulation.egg-info/SOURCES.txt'
+[0.492s] writing manifest file '../../build/simulation/simulation.egg-info/SOURCES.txt'
+[0.492s] running build
+[0.492s] running build_py
+[0.493s] running install
+[0.494s] running install_lib
+[0.496s] running install_data
+[0.499s] copying launch/sim_launch.py -> /home/student/sjowmm_ws/install/simulation/share/simulation/launch
+[0.499s] copying launch/spawn_launch.py -> /home/student/sjowmm_ws/install/simulation/share/simulation/launch
+[0.499s] copying launch/spawn_robot_launch.py -> /home/student/sjowmm_ws/install/simulation/share/simulation/launch
+[0.499s] copying worlds/waffle_pi.model -> /home/student/sjowmm_ws/install/simulation/share/simulation/worlds
+[0.499s] creating /home/student/sjowmm_ws/install/simulation/share/simulation/models
+[0.499s] copying models/model.sdf -> /home/student/sjowmm_ws/install/simulation/share/simulation/models
+[0.499s] copying models/model.config -> /home/student/sjowmm_ws/install/simulation/share/simulation/models
+[0.499s] copying models/turtlebot3_burger/meshes/tire.dae -> /home/student/sjowmm_ws/install/simulation/share/simulation/models
+[0.500s] copying models/turtlebot3_burger/meshes/lds.dae -> /home/student/sjowmm_ws/install/simulation/share/simulation/models
+[0.500s] copying models/turtlebot3_burger/meshes/burger_base.dae -> /home/student/sjowmm_ws/install/simulation/share/simulation/models
+[0.500s] copying models/turtlebot3_burger/model-1_4.sdf -> /home/student/sjowmm_ws/install/simulation/share/simulation/models
+[0.500s] creating /home/student/sjowmm_ws/install/simulation/share/simulation/urdf
+[0.500s] copying urdf/turtlebot3_burger.urdf -> /home/student/sjowmm_ws/install/simulation/share/simulation/urdf
+[0.500s] copying urdf/turtlebot3_waffle_pi.urdf -> /home/student/sjowmm_ws/install/simulation/share/simulation/urdf
+[0.500s] running install_egg_info
+[0.502s] removing '/home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages/simulation-0.0.0-py3.8.egg-info' (and everything under it)
+[0.502s] Copying ../../build/simulation/simulation.egg-info to /home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages/simulation-0.0.0-py3.8.egg-info
+[0.503s] running install_scripts
+[0.521s] Installing spawn_robot_srv script to /home/student/sjowmm_ws/install/simulation/lib/simulation
+[0.522s] writing list of installed files to '/home/student/sjowmm_ws/build/simulation/install.log'
+[0.536s] Invoked command in '/home/student/sjowmm_ws/src/simulation' returned '0': PYTHONPATH=/home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simulation build --build-base /home/student/sjowmm_ws/build/simulation/build install --prefix /home/student/sjowmm_ws/install/simulation --record /home/student/sjowmm_ws/build/simulation/install.log --single-version-externally-managed

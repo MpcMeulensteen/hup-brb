@@ -1,0 +1,135 @@
+[0.037s] Invoking command in '/home/student/sjowmm_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_behavior_tree -- -j12 -l12
+[0.143s] [  2%] Built target nav2_pipeline_sequence_bt_node
+[0.148s] [  4%] Built target nav2_compute_path_to_pose_action_bt_node
+[0.153s] [  6%] Built target nav2_is_stuck_condition_bt_node
+[0.153s] [  8%] Built target nav2_goal_updated_condition_bt_node
+[0.155s] [ 10%] Built target nav2_spin_action_bt_node
+[0.158s] [ 14%] Built target nav2_transform_available_condition_bt_node
+[0.158s] [ 14%] Built target nav2_wait_action_bt_node
+[0.160s] [ 16%] Built target nav2_goal_updater_node_bt_node
+[0.161s] [ 18%] Built target nav2_behavior_tree
+[0.163s] [ 20%] Built target nav2_initial_pose_received_condition_bt_node
+[0.166s] [ 22%] Built target nav2_goal_reached_condition_bt_node
+[0.174s] [ 24%] Built target nav2_follow_path_action_bt_node
+[0.229s] [ 26%] Built target nav2_time_expired_condition_bt_node
+[0.230s] [ 28%] Built target nav2_distance_traveled_condition_bt_node
+[0.241s] [ 30%] Built target nav2_is_battery_low_condition_bt_node
+[0.241s] [ 32%] Built target nav2_rate_controller_bt_node
+[0.242s] [ 34%] Built target nav2_reinitialize_global_localization_service_bt_node
+[0.246s] [ 36%] Built target nav2_clear_costmap_service_bt_node
+[0.248s] [ 40%] Built target nav2_distance_controller_bt_node
+[0.248s] [ 40%] Built target nav2_speed_controller_bt_node
+[0.249s] [ 42%] Built target nav2_navigate_to_pose_action_bt_node
+[0.249s] [ 44%] Built target nav2_truncate_path_action_bt_node
+[0.251s] [ 46%] Built target nav2_round_robin_node_bt_node
+[0.256s] [ 48%] Built target nav2_back_up_action_bt_node
+[0.273s] [ 53%] Built target nav2_recovery_node_bt_node
+[0.273s] [ 53%] Built target gtest_main
+[0.276s] [ 55%] Built target gtest
+[0.322s] [ 57%] Built target test_bt_conversions
+[0.341s] [ 59%] Built target test_condition_is_stuck
+[0.341s] [ 61%] Built target test_condition_distance_traveled
+[0.342s] [ 63%] Built target test_condition_transform_available
+[0.345s] [ 65%] Built target test_decorator_rate_controller
+[0.345s] [ 67%] Built target test_condition_goal_reached
+[0.345s] [ 69%] Built target test_decorator_speed_controller
+[0.349s] [ 71%] Built target test_condition_time_expired
+[0.354s] [ 73%] Built target test_condition_is_battery_low
+[0.356s] [ 75%] Built target test_condition_goal_updated
+[0.360s] [ 77%] Built target test_goal_updater_node
+[0.361s] [ 79%] Built target test_condition_initial_pose_received
+[0.391s] [ 81%] Built target test_decorator_distance_controller
+[0.396s] [ 83%] Built target test_control_recovery_node
+[0.397s] [ 85%] Built target test_control_round_robin_node
+[0.397s] [ 87%] Built target test_action_navigate_to_pose_action
+[0.399s] [ 89%] Built target test_control_pipeline_sequence
+[0.399s] [ 91%] Built target test_truncate_path_action
+[0.402s] [ 93%] Built target test_action_follow_path_action
+[0.405s] [ 95%] Built target test_action_compute_path_to_pose_action
+[0.408s] [ 97%] Built target test_action_clear_costmap_service
+[0.411s] [100%] Built target test_action_reinitialize_global_localization_service
+[0.425s] Invoked command in '/home/student/sjowmm_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_behavior_tree -- -j12 -l12
+[0.507s] Invoking command in '/home/student/sjowmm_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_behavior_tree
+[0.515s] -- Install configuration: "Release"
+[0.517s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[0.518s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[0.521s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[0.522s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[0.524s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[0.526s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[0.528s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[0.530s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[0.531s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[0.533s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[0.533s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[0.535s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[0.536s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[0.537s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[0.539s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[0.541s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[0.542s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[0.543s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[0.544s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[0.546s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[0.547s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[0.548s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[0.549s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[0.550s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[0.551s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[0.551s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include/
+[0.551s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree
+[0.552s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[0.552s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[0.552s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[0.552s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[0.552s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins
+[0.552s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control
+[0.552s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[0.552s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[0.552s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[0.553s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition
+[0.553s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[0.553s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[0.553s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[0.553s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[0.553s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[0.553s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[0.553s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[0.553s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[0.554s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator
+[0.554s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[0.554s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[0.554s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[0.554s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[0.554s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action
+[0.554s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[0.554s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[0.554s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[0.554s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[0.555s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[0.555s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[0.555s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[0.555s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[0.555s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[0.555s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[0.555s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[0.555s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[0.555s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[0.556s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[0.556s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[0.556s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[0.556s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[0.556s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[0.556s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[0.556s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[0.556s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[0.556s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[0.556s] -- Installing: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[0.557s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[0.557s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.557s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[0.557s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.557s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[0.557s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[0.557s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[0.564s] Invoked command in '/home/student/sjowmm_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_behavior_tree

@@ -1,0 +1,104 @@
+[0.044s] Invoking command in '/home/student/sjowmm_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/sjowmm_ws/src/navigation2/nav2_regulated_pure_pursuit_controller -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller
+[0.131s] -- The C compiler identification is GNU 9.4.0
+[0.223s] -- The CXX compiler identification is GNU 9.4.0
+[0.230s] -- Check for working C compiler: /usr/bin/cc
+[0.342s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.342s] -- Detecting C compiler ABI info
+[0.440s] -- Detecting C compiler ABI info - done
+[0.457s] -- Detecting C compile features
+[0.458s] -- Detecting C compile features - done
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++
+[0.576s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.578s] -- Detecting CXX compiler ABI info
+[0.694s] -- Detecting CXX compiler ABI info - done
+[0.707s] -- Detecting CXX compile features
+[0.708s] -- Detecting CXX compile features - done
+[0.711s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.745s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.746s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.036s] -- Found nav2_common: 0.4.7 (/home/student/sjowmm_ws/install/nav2_common/share/nav2_common/cmake)
+[1.036s] -- Found nav2_core: 0.4.7 (/home/student/sjowmm_ws/install/nav2_core/share/nav2_core/cmake)
+[1.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.136s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.254s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.296s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.412s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.515s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.518s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.519s] -- Looking for pthread.h
+[1.634s] -- Looking for pthread.h - found
+[1.634s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.796s] -- Looking for pthread_create in pthreads
+[1.896s] -- Looking for pthread_create in pthreads - not found
+[1.896s] -- Looking for pthread_create in pthread
+[2.036s] -- Looking for pthread_create in pthread - found
+[2.038s] -- Found Threads: TRUE  
+[4.511s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[6.315s] -- Setting build type to Release as none was specified.
+[9.193s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.314s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.317s] -- Check if compiler accepts -pthread
+[9.416s] -- Check if compiler accepts -pthread - yes
+[14.055s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.057s] -- Configured cppcheck include dirs: /home/student/sjowmm_ws/src/navigation2/nav2_regulated_pure_pursuit_controller/include
+[14.057s] -- Configured cppcheck exclude dirs and/or files: 
+[14.059s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.060s] -- Configured cpplint exclude dirs and/or files: 
+[14.062s] -- Added test 'lint_cmake' to check CMake code style
+[14.064s] -- Added test 'uncrustify' to check C / C++ code style
+[14.064s] -- Configured uncrustify additional arguments: 
+[14.065s] -- Added test 'xmllint' to check XML markup files
+[14.076s] -- Configuring done
+[14.256s] -- Generating done
+[14.260s] -- Build files have been written to: /home/student/sjowmm_ws/build/nav2_regulated_pure_pursuit_controller
+[14.297s] Invoked command in '/home/student/sjowmm_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/sjowmm_ws/src/navigation2/nav2_regulated_pure_pursuit_controller -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller
+[14.308s] Invoking command in '/home/student/sjowmm_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_regulated_pure_pursuit_controller -- -j12 -l12
+[14.395s] [35m[1mScanning dependencies of target nav2_regulated_pure_pursuit_controller[0m
+[14.405s] [35m[1mScanning dependencies of target gtest[0m
+[14.412s] [35m[1mScanning dependencies of target gtest_main[0m
+[14.480s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[14.480s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[14.508s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_regulated_pure_pursuit_controller.dir/src/regulated_pure_pursuit_controller.cpp.o[0m
+[16.315s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[16.480s] [ 50%] Built target gtest_main
+[30.205s] [ 62%] [32m[1mLinking CXX shared library libnav2_regulated_pure_pursuit_controller.so[0m
+[30.266s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[30.332s] [ 75%] Built target gtest
+[30.631s] [ 75%] Built target nav2_regulated_pure_pursuit_controller
+[30.653s] [35m[1mScanning dependencies of target test_regulated_pp[0m
+[30.753s] [ 87%] [32mBuilding CXX object test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o[0m
+[39.791s] [100%] [32m[1mLinking CXX executable test_regulated_pp[0m
+[40.500s] [100%] Built target test_regulated_pp
+[40.515s] Invoked command in '/home/student/sjowmm_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_regulated_pure_pursuit_controller -- -j12 -l12
+[40.553s] Invoking command in '/home/student/sjowmm_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_regulated_pure_pursuit_controller
+[40.566s] -- Install configuration: "Release"
+[40.566s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so
+[40.567s] -- Set runtime path of "/home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so" to ""
+[40.567s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/include/
+[40.567s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller
+[40.568s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp
+[40.568s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.sh
+[40.568s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.dsv
+[40.568s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/nav2_regulated_pure_pursuit_controller.xml
+[40.568s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/nav2_regulated_pure_pursuit_controller
+[40.568s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/nav2_regulated_pure_pursuit_controller
+[40.569s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.sh
+[40.569s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.dsv
+[40.569s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.sh
+[40.569s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.dsv
+[40.569s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.bash
+[40.569s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.sh
+[40.569s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.zsh
+[40.570s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.dsv
+[40.570s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.dsv
+[40.570s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/packages/nav2_regulated_pure_pursuit_controller
+[40.571s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_regulated_pure_pursuit_controller
+[40.571s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.573s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[40.573s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.573s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_definitions-extras.cmake
+[40.573s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig.cmake
+[40.574s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig-version.cmake
+[40.574s] -- Installing: /home/student/sjowmm_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.xml
+[40.577s] Invoked command in '/home/student/sjowmm_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_regulated_pure_pursuit_controller

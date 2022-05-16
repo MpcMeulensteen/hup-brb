@@ -1,0 +1,60 @@
+[1.449s] Invoking command in '/home/student/sjowmm_ws/src/green_turtle': PYTHONPATH=/home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/green_turtle build --build-base /home/student/sjowmm_ws/build/green_turtle/build install --prefix /home/student/sjowmm_ws/install/green_turtle --record /home/student/sjowmm_ws/build/green_turtle/install.log --single-version-externally-managed
+[1.766s] running egg_info
+[1.767s] creating ../../build/green_turtle/green_turtle.egg-info
+[1.767s] writing ../../build/green_turtle/green_turtle.egg-info/PKG-INFO
+[1.767s] writing dependency_links to ../../build/green_turtle/green_turtle.egg-info/dependency_links.txt
+[1.767s] writing entry points to ../../build/green_turtle/green_turtle.egg-info/entry_points.txt
+[1.767s] writing requirements to ../../build/green_turtle/green_turtle.egg-info/requires.txt
+[1.768s] writing top-level names to ../../build/green_turtle/green_turtle.egg-info/top_level.txt
+[1.769s] writing manifest file '../../build/green_turtle/green_turtle.egg-info/SOURCES.txt'
+[1.827s] reading manifest file '../../build/green_turtle/green_turtle.egg-info/SOURCES.txt'
+[1.828s] writing manifest file '../../build/green_turtle/green_turtle.egg-info/SOURCES.txt'
+[1.829s] running build
+[1.829s] running build_py
+[1.829s] creating /home/student/sjowmm_ws/build/green_turtle/build
+[1.831s] creating /home/student/sjowmm_ws/build/green_turtle/build/lib
+[1.831s] creating /home/student/sjowmm_ws/build/green_turtle/build/lib/green_turtle
+[1.831s] copying green_turtle/test.py -> /home/student/sjowmm_ws/build/green_turtle/build/lib/green_turtle
+[1.832s] copying green_turtle/__init__.py -> /home/student/sjowmm_ws/build/green_turtle/build/lib/green_turtle
+[1.833s] running install
+[1.836s] running install_lib
+[1.841s] creating /home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle
+[1.841s] copying /home/student/sjowmm_ws/build/green_turtle/build/lib/green_turtle/test.py -> /home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle
+[1.842s] copying /home/student/sjowmm_ws/build/green_turtle/build/lib/green_turtle/__init__.py -> /home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle
+[1.843s] byte-compiling /home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle/test.py to test.cpython-38.pyc
+[1.845s] byte-compiling /home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle/__init__.py to __init__.cpython-38.pyc
+[1.847s] running install_data
+[1.848s] creating /home/student/sjowmm_ws/install/green_turtle/share/ament_index
+[1.848s] creating /home/student/sjowmm_ws/install/green_turtle/share/ament_index/resource_index
+[1.848s] creating /home/student/sjowmm_ws/install/green_turtle/share/ament_index/resource_index/packages
+[1.849s] copying resource/green_turtle -> /home/student/sjowmm_ws/install/green_turtle/share/ament_index/resource_index/packages
+[1.849s] copying package.xml -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle
+[1.849s] creating /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/launch
+[1.849s] copying launch/simulation_world.launch.py -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/launch
+[1.849s] creating /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/worlds
+[1.849s] copying worlds/maze.model -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/worlds
+[1.849s] creating /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models
+[1.849s] creating /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze
+[1.849s] copying models/maze/model.config -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze
+[1.849s] copying models/maze/model.sdf -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze
+[1.849s] creating /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+[1.849s] copying models/maze/meshes/maze.dae -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+[1.849s] copying models/maze/meshes/3.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+[1.849s] copying models/maze/meshes/6.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+[1.850s] copying models/maze/meshes/8.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+[1.850s] copying models/maze/meshes/9.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+[1.850s] copying models/maze/meshes/2.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+[1.851s] copying models/maze/meshes/4.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+[1.851s] copying models/maze/meshes/0.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+[1.851s] copying models/maze/meshes/7.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+[1.851s] copying models/maze/meshes/1.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+[1.852s] copying models/maze/meshes/5.png -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/maze/meshes
+[1.854s] creating /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/turtlebot3_waffle_custom
+[1.854s] copying models/turtlebot3_waffle_custom/model.config -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/turtlebot3_waffle_custom
+[1.854s] copying models/turtlebot3_waffle_custom/model.sdf -> /home/student/sjowmm_ws/install/green_turtle/share/green_turtle/models/turtlebot3_waffle_custom
+[1.855s] running install_egg_info
+[1.856s] Copying ../../build/green_turtle/green_turtle.egg-info to /home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages/green_turtle-0.0.0-py3.8.egg-info
+[1.857s] running install_scripts
+[1.866s] Installing node script to /home/student/sjowmm_ws/install/green_turtle/lib/green_turtle
+[1.867s] writing list of installed files to '/home/student/sjowmm_ws/build/green_turtle/install.log'
+[1.924s] Invoked command in '/home/student/sjowmm_ws/src/green_turtle' returned '0': PYTHONPATH=/home/student/sjowmm_ws/install/green_turtle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/green_turtle build --build-base /home/student/sjowmm_ws/build/green_turtle/build install --prefix /home/student/sjowmm_ws/install/green_turtle --record /home/student/sjowmm_ws/build/green_turtle/install.log --single-version-externally-managed

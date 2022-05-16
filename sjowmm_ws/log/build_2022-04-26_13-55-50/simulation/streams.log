@@ -1,0 +1,22 @@
+[0.244s] Invoking command in '/home/student/sjowmm_ws/src/simulation': PYTHONPATH=/home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simulation build --build-base /home/student/sjowmm_ws/build/simulation/build install --prefix /home/student/sjowmm_ws/install/simulation --record /home/student/sjowmm_ws/build/simulation/install.log --single-version-externally-managed
+[0.451s] running egg_info
+[0.452s] writing ../../build/simulation/simulation.egg-info/PKG-INFO
+[0.452s] writing dependency_links to ../../build/simulation/simulation.egg-info/dependency_links.txt
+[0.453s] writing entry points to ../../build/simulation/simulation.egg-info/entry_points.txt
+[0.453s] writing requirements to ../../build/simulation/simulation.egg-info/requires.txt
+[0.453s] writing top-level names to ../../build/simulation/simulation.egg-info/top_level.txt
+[0.483s] reading manifest file '../../build/simulation/simulation.egg-info/SOURCES.txt'
+[0.484s] writing manifest file '../../build/simulation/simulation.egg-info/SOURCES.txt'
+[0.484s] running build
+[0.484s] running build_py
+[0.484s] running install
+[0.485s] running install_lib
+[0.486s] running install_data
+[0.487s] copying launch/spawn_launch.py -> /home/student/sjowmm_ws/install/simulation/share/simulation/launch
+[0.487s] running install_egg_info
+[0.488s] removing '/home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages/simulation-0.0.0-py3.8.egg-info' (and everything under it)
+[0.488s] Copying ../../build/simulation/simulation.egg-info to /home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages/simulation-0.0.0-py3.8.egg-info
+[0.489s] running install_scripts
+[0.503s] Installing spawn_robot_srv script to /home/student/sjowmm_ws/install/simulation/lib/simulation
+[0.504s] writing list of installed files to '/home/student/sjowmm_ws/build/simulation/install.log'
+[0.521s] Invoked command in '/home/student/sjowmm_ws/src/simulation' returned '0': PYTHONPATH=/home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simulation build --build-base /home/student/sjowmm_ws/build/simulation/build install --prefix /home/student/sjowmm_ws/install/simulation --record /home/student/sjowmm_ws/build/simulation/install.log --single-version-externally-managed

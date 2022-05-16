@@ -1,0 +1,100 @@
+[0.021s] Invoking command in '/home/student/sjowmm_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy PYTHONPATH=/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/sjowmm_ws/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/nav2_voxel_grid
+[0.129s] -- The C compiler identification is GNU 9.4.0
+[0.232s] -- The CXX compiler identification is GNU 9.4.0
+[0.242s] -- Check for working C compiler: /usr/bin/cc
+[0.378s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.378s] -- Detecting C compiler ABI info
+[0.471s] -- Detecting C compiler ABI info - done
+[0.485s] -- Detecting C compile features
+[0.485s] -- Detecting C compile features - done
+[0.488s] -- Check for working CXX compiler: /usr/bin/c++
+[0.600s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.603s] -- Detecting CXX compiler ABI info
+[0.713s] -- Detecting CXX compiler ABI info - done
+[0.726s] -- Detecting CXX compile features
+[0.727s] -- Detecting CXX compile features - done
+[0.729s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.767s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.767s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.049s] -- Found nav2_common: 0.4.7 (/home/student/sjowmm_ws/install/nav2_common/share/nav2_common/cmake)
+[1.052s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.113s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.121s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.216s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.250s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.346s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.434s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.438s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.441s] -- Looking for pthread.h
+[1.549s] -- Looking for pthread.h - found
+[1.550s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.654s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.654s] -- Looking for pthread_create in pthreads
+[1.736s] -- Looking for pthread_create in pthreads - not found
+[1.737s] -- Looking for pthread_create in pthread
+[1.832s] -- Looking for pthread_create in pthread - found
+[1.834s] -- Found Threads: TRUE  
+[2.054s] -- Setting build type to Release as none was specified.
+[2.059s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.176s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.179s] -- Check if compiler accepts -pthread
+[2.325s] -- Check if compiler accepts -pthread - yes
+[2.344s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.345s] -- Configured cppcheck include dirs: /home/student/sjowmm_ws/src/navigation2/nav2_voxel_grid/include
+[2.345s] -- Configured cppcheck exclude dirs and/or files: 
+[2.347s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.347s] -- Configured cpplint exclude dirs and/or files: 
+[2.350s] -- Added test 'lint_cmake' to check CMake code style
+[2.353s] -- Added test 'uncrustify' to check C / C++ code style
+[2.353s] -- Configured uncrustify additional arguments: 
+[2.354s] -- Added test 'xmllint' to check XML markup files
+[2.365s] -- Configuring done
+[2.399s] -- Generating done
+[2.403s] -- Build files have been written to: /home/student/sjowmm_ws/build/nav2_voxel_grid
+[2.437s] Invoked command in '/home/student/sjowmm_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy PYTHONPATH=/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/sjowmm_ws/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/nav2_voxel_grid
+[2.440s] Invoking command in '/home/student/sjowmm_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy PYTHONPATH=/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_voxel_grid -- -j12 -l12
+[2.534s] [35m[1mScanning dependencies of target voxel_grid[0m
+[2.537s] [35m[1mScanning dependencies of target gtest[0m
+[2.538s] [35m[1mScanning dependencies of target gtest_main[0m
+[2.575s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.581s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.740s] [ 37%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[4.919s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.203s] [ 50%] Built target gtest_main
+[7.803s] [ 62%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[8.095s] [ 62%] Built target voxel_grid
+[19.501s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[19.741s] [ 75%] Built target gtest
+[19.872s] [35m[1mScanning dependencies of target voxel_grid_tests[0m
+[20.126s] [ 87%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[27.977s] [100%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[28.375s] [100%] Built target voxel_grid_tests
+[28.436s] Invoked command in '/home/student/sjowmm_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy PYTHONPATH=/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_voxel_grid -- -j12 -l12
+[28.683s] Invoking command in '/home/student/sjowmm_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy PYTHONPATH=/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_voxel_grid
+[28.712s] -- Install configuration: "Release"
+[28.712s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[28.712s] -- Set runtime path of "/home/student/sjowmm_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so" to ""
+[28.712s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/include
+[28.713s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/include/nav2_voxel_grid
+[28.713s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[28.713s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[28.714s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[28.714s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[28.715s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[28.715s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[28.715s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[28.716s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[28.716s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[28.716s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[28.716s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[28.717s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[28.717s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[28.718s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[28.718s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[28.718s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.718s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.719s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[28.719s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[28.719s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[28.719s] -- Installing: /home/student/sjowmm_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[28.731s] Invoked command in '/home/student/sjowmm_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy PYTHONPATH=/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_voxel_grid

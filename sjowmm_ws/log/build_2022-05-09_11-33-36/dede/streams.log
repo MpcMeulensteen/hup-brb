@@ -1,0 +1,64 @@
+[0.444s] Invoking command in '/home/student/sjowmm_ws/src/dede': PYTHONPATH=/home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dede build --build-base /home/student/sjowmm_ws/build/dede/build install --prefix /home/student/sjowmm_ws/install/dede --record /home/student/sjowmm_ws/build/dede/install.log --single-version-externally-managed
+[0.647s] running egg_info
+[0.648s] creating ../../build/dede/dede.egg-info
+[0.648s] writing ../../build/dede/dede.egg-info/PKG-INFO
+[0.648s] writing dependency_links to ../../build/dede/dede.egg-info/dependency_links.txt
+[0.648s] writing entry points to ../../build/dede/dede.egg-info/entry_points.txt
+[0.648s] writing requirements to ../../build/dede/dede.egg-info/requires.txt
+[0.648s] writing top-level names to ../../build/dede/dede.egg-info/top_level.txt
+[0.651s] writing manifest file '../../build/dede/dede.egg-info/SOURCES.txt'
+[0.690s] reading manifest file '../../build/dede/dede.egg-info/SOURCES.txt'
+[0.691s] writing manifest file '../../build/dede/dede.egg-info/SOURCES.txt'
+[0.691s] running build
+[0.691s] running build_py
+[0.691s] creating /home/student/sjowmm_ws/build/dede/build
+[0.691s] creating /home/student/sjowmm_ws/build/dede/build/lib
+[0.691s] creating /home/student/sjowmm_ws/build/dede/build/lib/dede
+[0.691s] copying dede/__init__.py -> /home/student/sjowmm_ws/build/dede/build/lib/dede
+[0.691s] running install
+[0.691s] running install_lib
+[0.693s] creating /home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages/dede
+[0.693s] copying /home/student/sjowmm_ws/build/dede/build/lib/dede/__init__.py -> /home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages/dede
+[0.693s] byte-compiling /home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages/dede/__init__.py to __init__.cpython-38.pyc
+[0.694s] running install_data
+[0.695s] creating /home/student/sjowmm_ws/install/dede/share/ament_index
+[0.695s] creating /home/student/sjowmm_ws/install/dede/share/ament_index/resource_index
+[0.695s] creating /home/student/sjowmm_ws/install/dede/share/ament_index/resource_index/packages
+[0.695s] copying resource/dede -> /home/student/sjowmm_ws/install/dede/share/ament_index/resource_index/packages
+[0.696s] copying package.xml -> /home/student/sjowmm_ws/install/dede/share/dede
+[0.696s] creating /home/student/sjowmm_ws/install/dede/share/dede/launch
+[0.696s] copying launch/simulation.launch.py -> /home/student/sjowmm_ws/install/dede/share/dede/launch
+[0.696s] copying launch/slam_toolbox.launch.py -> /home/student/sjowmm_ws/install/dede/share/dede/launch
+[0.696s] copying launch/nav2_slam.launch.py -> /home/student/sjowmm_ws/install/dede/share/dede/launch
+[0.696s] creating /home/student/sjowmm_ws/install/dede/share/dede/worlds
+[0.696s] copying worlds/base_maze.model -> /home/student/sjowmm_ws/install/dede/share/dede/worlds
+[0.696s] creating /home/student/sjowmm_ws/install/dede/share/dede/urdf
+[0.696s] copying urdf/dede.urdf -> /home/student/sjowmm_ws/install/dede/share/dede/urdf
+[0.696s] creating /home/student/sjowmm_ws/install/dede/share/dede/config
+[0.696s] creating /home/student/sjowmm_ws/install/dede/share/dede/config/slam
+[0.697s] copying config/slam/mapping.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/slam
+[0.697s] copying config/slam/localization.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/slam
+[0.697s] creating /home/student/sjowmm_ws/install/dede/share/dede/config/nav2
+[0.697s] copying config/nav2/controller_dwb.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/nav2
+[0.697s] copying config/nav2/recoveries.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/nav2
+[0.697s] copying config/nav2/waypoint.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/nav2
+[0.697s] copying config/nav2/bt_navigator.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/nav2
+[0.697s] copying config/nav2/planner.yaml -> /home/student/sjowmm_ws/install/dede/share/dede/config/nav2
+[0.697s] creating /home/student/sjowmm_ws/install/dede/share/dede/models
+[0.697s] creating /home/student/sjowmm_ws/install/dede/share/dede/models/dede
+[0.697s] copying models/dede/model.config -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede
+[0.697s] copying models/dede/model.sdf -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede
+[0.697s] creating /home/student/sjowmm_ws/install/dede/share/dede/models/dede/meshes
+[0.697s] copying models/dede/meshes/wheel.stl -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede/meshes
+[0.697s] copying models/dede/meshes/base.stl -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede/meshes
+[0.708s] copying models/dede/meshes/lidar.stl -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede/meshes
+[0.720s] creating /home/student/sjowmm_ws/install/dede/share/dede/models/dede_maze
+[0.720s] copying models/dede_maze/model.config -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede_maze
+[0.720s] copying models/dede_maze/model.sdf -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede_maze
+[0.720s] creating /home/student/sjowmm_ws/install/dede/share/dede/models/dede_maze/meshes
+[0.720s] copying models/dede_maze/meshes/maze.stl -> /home/student/sjowmm_ws/install/dede/share/dede/models/dede_maze/meshes
+[0.720s] running install_egg_info
+[0.722s] Copying ../../build/dede/dede.egg-info to /home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages/dede-0.0.0-py3.8.egg-info
+[0.723s] running install_scripts
+[0.738s] writing list of installed files to '/home/student/sjowmm_ws/build/dede/install.log'
+[0.763s] Invoked command in '/home/student/sjowmm_ws/src/dede' returned '0': PYTHONPATH=/home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dede build --build-base /home/student/sjowmm_ws/build/dede/build install --prefix /home/student/sjowmm_ws/install/dede --record /home/student/sjowmm_ws/build/dede/install.log --single-version-externally-managed

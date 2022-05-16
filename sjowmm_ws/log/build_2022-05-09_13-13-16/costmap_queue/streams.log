@@ -1,0 +1,106 @@
+[0.017s] Invoking command in '/home/student/sjowmm_ws/build/costmap_queue': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/sjowmm_ws/src/navigation2/nav2_dwb_controller/costmap_queue -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/costmap_queue
+[0.068s] -- The C compiler identification is GNU 9.4.0
+[0.118s] -- The CXX compiler identification is GNU 9.4.0
+[0.123s] -- Check for working C compiler: /usr/bin/cc
+[0.186s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.187s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.264s] -- Detecting C compile features
+[0.264s] -- Detecting C compile features - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.342s] -- Detecting CXX compiler ABI info
+[0.416s] -- Detecting CXX compiler ABI info - done
+[0.428s] -- Detecting CXX compile features
+[0.428s] -- Detecting CXX compile features - done
+[0.431s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.456s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.456s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.675s] -- Found nav2_common: 0.4.7 (/home/student/sjowmm_ws/install/nav2_common/share/nav2_common/cmake)
+[0.675s] -- Found nav2_costmap_2d: 0.4.7 (/home/student/sjowmm_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[0.711s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.718s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.793s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.823s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.901s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.742s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.744s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.744s] -- Looking for pthread.h
+[1.811s] -- Looking for pthread.h - found
+[1.811s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.879s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.879s] -- Looking for pthread_create in pthreads
+[1.934s] -- Looking for pthread_create in pthreads - not found
+[1.934s] -- Looking for pthread_create in pthread
+[1.999s] -- Looking for pthread_create in pthread - found
+[2.000s] -- Found Threads: TRUE  
+[2.455s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.918s] -- Setting build type to Release as none was specified.
+[3.284s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.422s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.427s] -- Check if compiler accepts -pthread
+[3.533s] -- Check if compiler accepts -pthread - yes
+[4.644s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.645s] -- Configured cppcheck include dirs: /home/student/sjowmm_ws/src/navigation2/nav2_dwb_controller/costmap_queue/include
+[4.645s] -- Configured cppcheck exclude dirs and/or files: 
+[4.647s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.647s] -- Configured cpplint exclude dirs and/or files: 
+[4.648s] -- Added test 'lint_cmake' to check CMake code style
+[4.649s] -- Added test 'uncrustify' to check C / C++ code style
+[4.650s] -- Configured uncrustify additional arguments: 
+[4.650s] -- Added test 'xmllint' to check XML markup files
+[4.656s] -- Configuring done
+[4.775s] -- Generating done
+[4.777s] -- Build files have been written to: /home/student/sjowmm_ws/build/costmap_queue
+[4.801s] Invoked command in '/home/student/sjowmm_ws/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/sjowmm_ws/src/navigation2/nav2_dwb_controller/costmap_queue -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/costmap_queue
+[4.803s] Invoking command in '/home/student/sjowmm_ws/build/costmap_queue': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/costmap_queue -- -j12 -l12
+[4.878s] [35m[1mScanning dependencies of target gtest[0m
+[4.887s] [35m[1mScanning dependencies of target gtest_main[0m
+[4.890s] [35m[1mScanning dependencies of target costmap_queue[0m
+[4.904s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.905s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.909s] [ 36%] [32mBuilding CXX object CMakeFiles/costmap_queue.dir/src/costmap_queue.cpp.o[0m
+[4.909s] [ 36%] [32mBuilding CXX object CMakeFiles/costmap_queue.dir/src/limited_costmap_queue.cpp.o[0m
+[6.123s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.180s] [ 45%] Built target gtest_main
+[6.202s] [ 54%] [32m[1mLinking CXX static library libcostmap_queue.a[0m
+[6.237s] [ 54%] Built target costmap_queue
+[18.144s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[18.205s] [ 63%] Built target gtest
+[18.227s] [35m[1mScanning dependencies of target utest[0m
+[18.295s] [35m[1mScanning dependencies of target mbq_test[0m
+[18.351s] [ 72%] [32mBuilding CXX object CMakeFiles/utest.dir/test/utest.cpp.o[0m
+[18.384s] [ 81%] [32mBuilding CXX object CMakeFiles/mbq_test.dir/test/mbq_test.cpp.o[0m
+[21.190s] [ 90%] [32m[1mLinking CXX executable mbq_test[0m
+[21.642s] [ 90%] Built target mbq_test
+[24.364s] [100%] [32m[1mLinking CXX executable utest[0m
+[25.414s] [100%] Built target utest
+[25.444s] Invoked command in '/home/student/sjowmm_ws/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/costmap_queue -- -j12 -l12
+[26.061s] Invoking command in '/home/student/sjowmm_ws/build/costmap_queue': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/costmap_queue
+[26.095s] -- Install configuration: "Release"
+[26.108s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/lib/libcostmap_queue.a
+[26.108s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/include/
+[26.109s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/include//costmap_queue
+[26.109s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/include//costmap_queue/limited_costmap_queue.hpp
+[26.109s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/include//costmap_queue/costmap_queue.hpp
+[26.109s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/include//costmap_queue/map_based_queue.hpp
+[26.109s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/environment/library_path.sh
+[26.121s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/environment/library_path.dsv
+[26.121s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/ament_index/resource_index/package_run_dependencies/costmap_queue
+[26.121s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/ament_index/resource_index/parent_prefix_path/costmap_queue
+[26.121s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/environment/ament_prefix_path.sh
+[26.121s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/environment/ament_prefix_path.dsv
+[26.121s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/environment/path.sh
+[26.122s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/environment/path.dsv
+[26.122s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/local_setup.bash
+[26.122s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/local_setup.sh
+[26.122s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/local_setup.zsh
+[26.122s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/local_setup.dsv
+[26.123s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/package.dsv
+[26.123s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/ament_index/resource_index/packages/costmap_queue
+[26.123s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.123s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/cmake/ament_cmake_export_libraries-extras.cmake
+[26.124s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/cmake/costmap_queueConfig.cmake
+[26.125s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/cmake/costmap_queueConfig-version.cmake
+[26.125s] -- Installing: /home/student/sjowmm_ws/install/costmap_queue/share/costmap_queue/package.xml
+[26.140s] Invoked command in '/home/student/sjowmm_ws/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/costmap_queue

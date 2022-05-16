@@ -1,0 +1,4 @@
+[console_scripts]
+readMapData = simulation.readMapData:main
+spawn_robot_srv = simulation.spawn_robot_srv:main
+

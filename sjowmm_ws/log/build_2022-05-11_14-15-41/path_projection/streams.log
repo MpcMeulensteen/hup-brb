@@ -1,0 +1,21 @@
+[1.673s] Invoking command in '/home/student/sjowmm_ws/src/path_projection': PYTHONPATH=/home/student/sjowmm_ws/install/path_projection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_projection build --build-base /home/student/sjowmm_ws/build/path_projection/build install --prefix /home/student/sjowmm_ws/install/path_projection --record /home/student/sjowmm_ws/build/path_projection/install.log --single-version-externally-managed
+[2.026s] running egg_info
+[2.030s] writing ../../build/path_projection/path_projection.egg-info/PKG-INFO
+[2.035s] writing dependency_links to ../../build/path_projection/path_projection.egg-info/dependency_links.txt
+[2.036s] writing entry points to ../../build/path_projection/path_projection.egg-info/entry_points.txt
+[2.036s] writing requirements to ../../build/path_projection/path_projection.egg-info/requires.txt
+[2.037s] writing top-level names to ../../build/path_projection/path_projection.egg-info/top_level.txt
+[2.060s] reading manifest file '../../build/path_projection/path_projection.egg-info/SOURCES.txt'
+[2.061s] writing manifest file '../../build/path_projection/path_projection.egg-info/SOURCES.txt'
+[2.086s] running build
+[2.086s] running build_py
+[2.087s] running install
+[2.087s] running install_lib
+[2.088s] running install_data
+[2.088s] running install_egg_info
+[2.099s] removing '/home/student/sjowmm_ws/install/path_projection/lib/python3.8/site-packages/path_projection-0.0.0-py3.8.egg-info' (and everything under it)
+[2.099s] Copying ../../build/path_projection/path_projection.egg-info to /home/student/sjowmm_ws/install/path_projection/lib/python3.8/site-packages/path_projection-0.0.0-py3.8.egg-info
+[2.100s] running install_scripts
+[2.117s] Installing PathProjection script to /home/student/sjowmm_ws/install/path_projection/lib/path_projection
+[2.130s] writing list of installed files to '/home/student/sjowmm_ws/build/path_projection/install.log'
+[2.618s] Invoked command in '/home/student/sjowmm_ws/src/path_projection' returned '0': PYTHONPATH=/home/student/sjowmm_ws/install/path_projection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_projection build --build-base /home/student/sjowmm_ws/build/path_projection/build install --prefix /home/student/sjowmm_ws/install/path_projection --record /home/student/sjowmm_ws/build/path_projection/install.log --single-version-externally-managed

@@ -1,0 +1,21 @@
+[0.440s] Invoking command in '/home/student/sjowmm_ws/src/dede': PYTHONPATH=/home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dede build --build-base /home/student/sjowmm_ws/build/dede/build install --prefix /home/student/sjowmm_ws/install/dede --record /home/student/sjowmm_ws/build/dede/install.log --single-version-externally-managed
+[0.636s] running egg_info
+[0.636s] writing ../../build/dede/dede.egg-info/PKG-INFO
+[0.636s] writing dependency_links to ../../build/dede/dede.egg-info/dependency_links.txt
+[0.636s] writing entry points to ../../build/dede/dede.egg-info/entry_points.txt
+[0.637s] writing requirements to ../../build/dede/dede.egg-info/requires.txt
+[0.637s] writing top-level names to ../../build/dede/dede.egg-info/top_level.txt
+[0.666s] reading manifest file '../../build/dede/dede.egg-info/SOURCES.txt'
+[0.667s] writing manifest file '../../build/dede/dede.egg-info/SOURCES.txt'
+[0.667s] running build
+[0.667s] running build_py
+[0.667s] running install
+[0.668s] running install_lib
+[0.669s] running install_data
+[0.669s] copying launch/simulation.launch.py -> /home/student/sjowmm_ws/install/dede/share/dede/launch
+[0.670s] running install_egg_info
+[0.671s] removing '/home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages/dede-0.0.0-py3.8.egg-info' (and everything under it)
+[0.671s] Copying ../../build/dede/dede.egg-info to /home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages/dede-0.0.0-py3.8.egg-info
+[0.672s] running install_scripts
+[0.686s] writing list of installed files to '/home/student/sjowmm_ws/build/dede/install.log'
+[0.703s] Invoked command in '/home/student/sjowmm_ws/src/dede' returned '0': PYTHONPATH=/home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dede build --build-base /home/student/sjowmm_ws/build/dede/build install --prefix /home/student/sjowmm_ws/install/dede --record /home/student/sjowmm_ws/build/dede/install.log --single-version-externally-managed

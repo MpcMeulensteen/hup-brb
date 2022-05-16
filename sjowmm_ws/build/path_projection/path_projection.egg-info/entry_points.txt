@@ -1,0 +1,3 @@
+[console_scripts]
+PathProjection = path_projection.path_projection_node:main
+

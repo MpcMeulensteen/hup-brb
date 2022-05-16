@@ -1,0 +1,135 @@
+[0.048s] Invoking command in '/home/student/sjowmm_ws/build/nav2_recoveries': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_behavior_tree/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/sjowmm_ws/src/navigation2/nav2_recoveries -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/nav2_recoveries
+[0.140s] -- The C compiler identification is GNU 9.4.0
+[0.228s] -- The CXX compiler identification is GNU 9.4.0
+[0.236s] -- Check for working C compiler: /usr/bin/cc
+[0.343s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.345s] -- Detecting C compiler ABI info
+[0.452s] -- Detecting C compiler ABI info - done
+[0.467s] -- Detecting C compile features
+[0.467s] -- Detecting C compile features - done
+[0.471s] -- Check for working CXX compiler: /usr/bin/c++
+[0.584s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.584s] -- Detecting CXX compiler ABI info
+[0.691s] -- Detecting CXX compiler ABI info - done
+[0.707s] -- Detecting CXX compile features
+[0.707s] -- Detecting CXX compile features - done
+[0.710s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.745s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.745s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.134s] -- Found nav2_common: 0.4.7 (/home/student/sjowmm_ws/install/nav2_common/share/nav2_common/cmake)
+[1.137s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.215s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.228s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.347s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.394s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.566s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.567s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.568s] -- Looking for pthread.h
+[1.680s] -- Looking for pthread.h - found
+[1.680s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.815s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.815s] -- Looking for pthread_create in pthreads
+[1.922s] -- Looking for pthread_create in pthreads - not found
+[1.922s] -- Looking for pthread_create in pthread
+[2.072s] -- Looking for pthread_create in pthread - found
+[2.076s] -- Found Threads: TRUE  
+[2.395s] -- Found rclcpp_action: 2.3.0 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[2.544s] -- Found rclcpp_lifecycle: 2.3.0 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[2.600s] -- Found nav2_behavior_tree: 0.4.7 (/home/student/sjowmm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[4.007s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[4.012s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[4.713s] -- Found nav2_costmap_2d: 0.4.7 (/home/student/sjowmm_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[5.870s] -- Found nav2_core: 0.4.7 (/home/student/sjowmm_ws/install/nav2_core/share/nav2_core/cmake)
+[6.746s] -- Setting build type to Release as none was specified.
+[37.906s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[38.066s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[38.070s] -- Check if compiler accepts -pthread
+[38.216s] -- Check if compiler accepts -pthread - yes
+[42.937s] -- Added test 'copyright' to check source files copyright and LICENSE
+[42.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[42.941s] -- Configured cppcheck include dirs: /home/student/sjowmm_ws/src/navigation2/nav2_recoveries/include
+[42.941s] -- Configured cppcheck exclude dirs and/or files: 
+[42.943s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[42.943s] -- Configured cpplint exclude dirs and/or files: 
+[42.944s] -- Added test 'lint_cmake' to check CMake code style
+[42.946s] -- Added test 'uncrustify' to check C / C++ code style
+[42.946s] -- Configured uncrustify additional arguments: 
+[42.948s] -- Added test 'xmllint' to check XML markup files
+[42.957s] -- Configuring done
+[43.253s] -- Generating done
+[43.256s] -- Build files have been written to: /home/student/sjowmm_ws/build/nav2_recoveries
+[43.276s] Invoked command in '/home/student/sjowmm_ws/build/nav2_recoveries' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_behavior_tree/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/sjowmm_ws/src/navigation2/nav2_recoveries -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/nav2_recoveries
+[43.280s] Invoking command in '/home/student/sjowmm_ws/build/nav2_recoveries': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_behavior_tree/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_recoveries -- -j12 -l12
+[43.345s] [35m[1mScanning dependencies of target nav2_spin_recovery[0m
+[43.346s] [35m[1mScanning dependencies of target recoveries_server_core[0m
+[43.354s] [35m[1mScanning dependencies of target nav2_backup_recovery[0m
+[43.358s] [35m[1mScanning dependencies of target nav2_wait_recovery[0m
+[43.454s] [  6%] [32mBuilding CXX object CMakeFiles/recoveries_server_core.dir/src/recovery_server.cpp.o[0m
+[43.481s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_spin_recovery.dir/plugins/spin.cpp.o[0m
+[43.490s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_wait_recovery.dir/plugins/wait.cpp.o[0m
+[43.490s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_backup_recovery.dir/plugins/back_up.cpp.o[0m
+[54.993s] [ 31%] [32m[1mLinking CXX shared library libnav2_wait_recovery.so[0m
+[55.485s] [ 31%] Built target nav2_wait_recovery
+[56.160s] [ 37%] [32m[1mLinking CXX shared library libnav2_spin_recovery.so[0m
+[56.237s] [ 43%] [32m[1mLinking CXX shared library libnav2_backup_recovery.so[0m
+[56.965s] [ 43%] Built target nav2_backup_recovery
+[56.972s] [ 43%] Built target nav2_spin_recovery
+[60.137s] [ 50%] [32m[1mLinking CXX static library librecoveries_server_core.a[0m
+[60.231s] [ 50%] Built target recoveries_server_core
+[60.261s] [35m[1mScanning dependencies of target gtest_main[0m
+[60.297s] [ 56%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[62.068s] [ 62%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[62.145s] [ 62%] Built target gtest_main
+[62.169s] [35m[1mScanning dependencies of target recoveries_server[0m
+[62.265s] [ 68%] [32mBuilding CXX object CMakeFiles/recoveries_server.dir/src/main.cpp.o[0m
+[69.796s] [ 75%] [32m[1mLinking CXX executable recoveries_server[0m
+[70.547s] [ 75%] Built target recoveries_server
+[70.566s] [35m[1mScanning dependencies of target gtest[0m
+[70.595s] [ 81%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[86.080s] [ 87%] [32m[1mLinking CXX static library libgtest.a[0m
+[86.173s] [ 87%] Built target gtest
+[86.199s] [35m[1mScanning dependencies of target test_recoveries[0m
+[86.337s] [ 93%] [32mBuilding CXX object test/CMakeFiles/test_recoveries.dir/test_recoveries.cpp.o[0m
+[109.660s] [100%] [32m[1mLinking CXX executable test_recoveries[0m
+[110.447s] [100%] Built target test_recoveries
+[110.473s] Invoked command in '/home/student/sjowmm_ws/build/nav2_recoveries' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_behavior_tree/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_recoveries -- -j12 -l12
+[110.535s] Invoking command in '/home/student/sjowmm_ws/build/nav2_recoveries': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_behavior_tree/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_recoveries
+[110.557s] -- Install configuration: "Release"
+[110.558s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/recovery_plugin.xml
+[110.558s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/lib/librecoveries_server_core.a
+[110.560s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/lib/libnav2_backup_recovery.so
+[110.561s] -- Set runtime path of "/home/student/sjowmm_ws/install/nav2_recoveries/lib/libnav2_backup_recovery.so" to ""
+[110.561s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/lib/libnav2_spin_recovery.so
+[110.562s] -- Set runtime path of "/home/student/sjowmm_ws/install/nav2_recoveries/lib/libnav2_spin_recovery.so" to ""
+[110.562s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/lib/libnav2_wait_recovery.so
+[110.563s] -- Set runtime path of "/home/student/sjowmm_ws/install/nav2_recoveries/lib/libnav2_wait_recovery.so" to ""
+[110.563s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/lib/nav2_recoveries/recoveries_server
+[110.565s] -- Set runtime path of "/home/student/sjowmm_ws/install/nav2_recoveries/lib/nav2_recoveries/recoveries_server" to ""
+[110.565s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/include/
+[110.565s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/include//nav2_recoveries
+[110.565s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/include//nav2_recoveries/recovery_server.hpp
+[110.565s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/include//nav2_recoveries/recovery.hpp
+[110.565s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/recovery_plugin.xml
+[110.566s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/environment/library_path.sh
+[110.566s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/environment/library_path.dsv
+[110.566s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/ament_index/resource_index/package_run_dependencies/nav2_recoveries
+[110.566s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/ament_index/resource_index/parent_prefix_path/nav2_recoveries
+[110.566s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/environment/ament_prefix_path.sh
+[110.566s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/environment/ament_prefix_path.dsv
+[110.566s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/environment/path.sh
+[110.566s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/environment/path.dsv
+[110.567s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/local_setup.bash
+[110.567s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/local_setup.sh
+[110.567s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/local_setup.zsh
+[110.567s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/local_setup.dsv
+[110.567s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/package.dsv
+[110.567s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/ament_index/resource_index/packages/nav2_recoveries
+[110.568s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_recoveries
+[110.568s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/ament_cmake_export_include_directories-extras.cmake
+[110.568s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/ament_cmake_export_libraries-extras.cmake
+[110.568s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/ament_cmake_export_definitions-extras.cmake
+[110.568s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/nav2_recoveriesConfig.cmake
+[110.568s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/nav2_recoveriesConfig-version.cmake
+[110.568s] -- Installing: /home/student/sjowmm_ws/install/nav2_recoveries/share/nav2_recoveries/package.xml
+[110.577s] Invoked command in '/home/student/sjowmm_ws/build/nav2_recoveries' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_behavior_tree:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_behavior_tree/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_recoveries

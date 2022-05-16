@@ -1,0 +1,99 @@
+[0.053s] Invoking command in '/home/student/sjowmm_ws/build/nav2_navfn_planner': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/sjowmm_ws/src/navigation2/nav2_navfn_planner -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/nav2_navfn_planner
+[0.129s] -- The C compiler identification is GNU 9.4.0
+[0.226s] -- The CXX compiler identification is GNU 9.4.0
+[0.233s] -- Check for working C compiler: /usr/bin/cc
+[0.341s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.343s] -- Detecting C compiler ABI info
+[0.446s] -- Detecting C compiler ABI info - done
+[0.461s] -- Detecting C compile features
+[0.462s] -- Detecting C compile features - done
+[0.466s] -- Check for working CXX compiler: /usr/bin/c++
+[0.580s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.582s] -- Detecting CXX compiler ABI info
+[0.705s] -- Detecting CXX compiler ABI info - done
+[0.726s] -- Detecting CXX compile features
+[0.727s] -- Detecting CXX compile features - done
+[0.731s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.775s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.775s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.066s] -- Found nav2_common: 0.4.7 (/home/student/sjowmm_ws/install/nav2_common/share/nav2_common/cmake)
+[1.067s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.130s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.227s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.272s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.450s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.452s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.453s] -- Looking for pthread.h
+[1.539s] -- Looking for pthread.h - found
+[1.539s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.641s] -- Looking for pthread_create in pthreads
+[1.728s] -- Looking for pthread_create in pthreads - not found
+[1.728s] -- Looking for pthread_create in pthread
+[1.896s] -- Looking for pthread_create in pthread - found
+[1.898s] -- Found Threads: TRUE  
+[2.161s] -- Found rclcpp_action: 2.3.0 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[2.271s] -- Found rclcpp_lifecycle: 2.3.0 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[2.328s] -- Found visualization_msgs: 2.0.3 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.542s] -- Found nav2_util: 0.4.7 (/home/student/sjowmm_ws/install/nav2_util/share/nav2_util/cmake)
+[3.498s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.502s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.663s] -- Found nav2_core: 0.4.7 (/home/student/sjowmm_ws/install/nav2_core/share/nav2_core/cmake)
+[5.031s] -- Setting build type to Release as none was specified.
+[8.318s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.460s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.463s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.464s] -- Configured cppcheck include dirs: /home/student/sjowmm_ws/src/navigation2/nav2_navfn_planner/include
+[8.465s] -- Configured cppcheck exclude dirs and/or files: 
+[8.467s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.467s] -- Configured cpplint exclude dirs and/or files: 
+[8.468s] -- Added test 'lint_cmake' to check CMake code style
+[8.471s] -- Added test 'uncrustify' to check C / C++ code style
+[8.471s] -- Configured uncrustify additional arguments: 
+[8.473s] -- Added test 'xmllint' to check XML markup files
+[8.482s] -- Configuring done
+[8.550s] -- Generating done
+[8.554s] -- Build files have been written to: /home/student/sjowmm_ws/build/nav2_navfn_planner
+[8.576s] Invoked command in '/home/student/sjowmm_ws/build/nav2_navfn_planner' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/sjowmm_ws/src/navigation2/nav2_navfn_planner -DCMAKE_INSTALL_PREFIX=/home/student/sjowmm_ws/install/nav2_navfn_planner
+[8.578s] Invoking command in '/home/student/sjowmm_ws/build/nav2_navfn_planner': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_navfn_planner -- -j12 -l12
+[8.648s] [35m[1mScanning dependencies of target nav2_navfn_planner[0m
+[8.743s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_navfn_planner.dir/src/navfn.cpp.o[0m
+[8.745s] [ 66%] [32mBuilding CXX object CMakeFiles/nav2_navfn_planner.dir/src/navfn_planner.cpp.o[0m
+[27.777s] [100%] [32m[1mLinking CXX shared library libnav2_navfn_planner.so[0m
+[28.415s] [100%] Built target nav2_navfn_planner
+[28.436s] Invoked command in '/home/student/sjowmm_ws/build/nav2_navfn_planner' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav2_navfn_planner -- -j12 -l12
+[28.642s] Invoking command in '/home/student/sjowmm_ws/build/nav2_navfn_planner': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_navfn_planner
+[28.655s] -- Install configuration: "Release"
+[28.656s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/global_planner_plugin.xml
+[28.656s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/lib/libnav2_navfn_planner.so
+[28.657s] -- Set runtime path of "/home/student/sjowmm_ws/install/nav2_navfn_planner/lib/libnav2_navfn_planner.so" to ""
+[28.657s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/include/
+[28.657s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/include//nav2_navfn_planner
+[28.657s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/include//nav2_navfn_planner/navfn_planner.hpp
+[28.658s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/include//nav2_navfn_planner/navfn.hpp
+[28.658s] -- Up-to-date: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/global_planner_plugin.xml
+[28.658s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/library_path.sh
+[28.658s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/library_path.dsv
+[28.658s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/ament_index/resource_index/package_run_dependencies/nav2_navfn_planner
+[28.659s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/ament_index/resource_index/parent_prefix_path/nav2_navfn_planner
+[28.659s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/ament_prefix_path.sh
+[28.659s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/ament_prefix_path.dsv
+[28.659s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/path.sh
+[28.659s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/path.dsv
+[28.660s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.bash
+[28.660s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.sh
+[28.660s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.zsh
+[28.660s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.dsv
+[28.661s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/package.dsv
+[28.661s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/ament_index/resource_index/packages/nav2_navfn_planner
+[28.661s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_navfn_planner
+[28.662s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.662s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[28.663s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.663s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_definitions-extras.cmake
+[28.664s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/nav2_navfn_plannerConfig.cmake
+[28.664s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/nav2_navfn_plannerConfig-version.cmake
+[28.665s] -- Installing: /home/student/sjowmm_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/package.xml
+[28.678s] Invoked command in '/home/student/sjowmm_ws/build/nav2_navfn_planner' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_core:/home/student/sjowmm_ws/install/nav2_costmap_2d:/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_voxel_grid:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav2_common:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_costmap_2d/lib:/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_voxel_grid/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav2_navfn_planner

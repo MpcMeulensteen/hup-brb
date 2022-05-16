@@ -1,0 +1,38 @@
+[0.051s] Invoking command in '/home/student/sjowmm_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav_2d_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav_2d_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:/home/student/sjowmm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav_2d_utils -- -j12 -l12
+[0.258s] [ 33%] Built target conversions
+[0.259s] [ 66%] Built target path_ops
+[0.360s] [100%] Built target tf_help
+[0.399s] Invoked command in '/home/student/sjowmm_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav_2d_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav_2d_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:/home/student/sjowmm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/sjowmm_ws/build/nav_2d_utils -- -j12 -l12
+[0.513s] Invoking command in '/home/student/sjowmm_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav_2d_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav_2d_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:/home/student/sjowmm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav_2d_utils
+[0.531s] -- Install configuration: "Release"
+[0.536s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/lib/libconversions.so
+[0.536s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/lib/libpath_ops.so
+[0.536s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/lib/libtf_help.so
+[0.536s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/include/
+[0.537s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/include//nav_2d_utils
+[0.537s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/include//nav_2d_utils/conversions.hpp
+[0.537s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/include//nav_2d_utils/odom_subscriber.hpp
+[0.537s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/include//nav_2d_utils/parameters.hpp
+[0.537s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/include//nav_2d_utils/path_ops.hpp
+[0.537s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/include//nav_2d_utils/tf_help.hpp
+[0.537s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.sh
+[0.537s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.dsv
+[0.537s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/ament_index/resource_index/package_run_dependencies/nav_2d_utils
+[0.538s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/ament_index/resource_index/parent_prefix_path/nav_2d_utils
+[0.538s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.sh
+[0.538s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.dsv
+[0.538s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/environment/path.sh
+[0.538s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/environment/path.dsv
+[0.538s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.bash
+[0.538s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.sh
+[0.538s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.zsh
+[0.538s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.dsv
+[0.539s] -- Installing: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/package.dsv
+[0.539s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/ament_index/resource_index/packages/nav_2d_utils
+[0.539s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.539s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[0.539s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.539s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig.cmake
+[0.539s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig-version.cmake
+[0.539s] -- Up-to-date: /home/student/sjowmm_ws/install/nav_2d_utils/share/nav_2d_utils/package.xml
+[0.562s] Invoked command in '/home/student/sjowmm_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav_2d_msgs:/home/student/sjowmm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/sjowmm_ws/install/nav2_util:/home/student/sjowmm_ws/install/nav2_msgs:/home/student/sjowmm_ws/install/nav_2d_msgs:/home/student/sjowmm_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/student/sjowmm_ws/install/nav2_util/lib:/home/student/sjowmm_ws/install/nav2_msgs/lib:/home/student/sjowmm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/sjowmm_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/student/sjowmm_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/sjowmm_ws/build/nav_2d_utils

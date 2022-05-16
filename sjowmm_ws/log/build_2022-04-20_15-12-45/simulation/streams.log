@@ -1,0 +1,21 @@
+[0.240s] Invoking command in '/home/student/sjowmm_ws/src/simulation': PYTHONPATH=/home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simulation build --build-base /home/student/sjowmm_ws/build/simulation/build install --prefix /home/student/sjowmm_ws/install/simulation --record /home/student/sjowmm_ws/build/simulation/install.log --single-version-externally-managed
+[0.455s] running egg_info
+[0.455s] writing ../../build/simulation/simulation.egg-info/PKG-INFO
+[0.455s] writing dependency_links to ../../build/simulation/simulation.egg-info/dependency_links.txt
+[0.456s] writing entry points to ../../build/simulation/simulation.egg-info/entry_points.txt
+[0.456s] writing requirements to ../../build/simulation/simulation.egg-info/requires.txt
+[0.456s] writing top-level names to ../../build/simulation/simulation.egg-info/top_level.txt
+[0.485s] reading manifest file '../../build/simulation/simulation.egg-info/SOURCES.txt'
+[0.486s] writing manifest file '../../build/simulation/simulation.egg-info/SOURCES.txt'
+[0.486s] running build
+[0.486s] running build_py
+[0.486s] running install
+[0.486s] running install_lib
+[0.487s] running install_data
+[0.488s] creating /home/student/sjowmm_ws/install/simulation/share/simulation/launch
+[0.488s] running install_egg_info
+[0.489s] removing '/home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages/simulation-0.0.0-py3.8.egg-info' (and everything under it)
+[0.489s] Copying ../../build/simulation/simulation.egg-info to /home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages/simulation-0.0.0-py3.8.egg-info
+[0.490s] running install_scripts
+[0.504s] writing list of installed files to '/home/student/sjowmm_ws/build/simulation/install.log'
+[0.519s] Invoked command in '/home/student/sjowmm_ws/src/simulation' returned '0': PYTHONPATH=/home/student/sjowmm_ws/install/simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simulation build --build-base /home/student/sjowmm_ws/build/simulation/build install --prefix /home/student/sjowmm_ws/install/simulation --record /home/student/sjowmm_ws/build/simulation/install.log --single-version-externally-managed

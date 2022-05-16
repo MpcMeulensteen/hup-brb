@@ -1,0 +1,28 @@
+[0.110s] Invoking command in '/home/student/sjowmm_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/sjowmm_ws/install/turtlebot3_teleop:/home/student/sjowmm_ws/install/turtlebot3_example:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/path_projection:/home/student/sjowmm_ws/install/nav2_gazebo_spawner:/home/student/sjowmm_ws/install/green_turtle:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy /usr/bin/cmake --build /home/student/sjowmm_ws/build/turtlebot3_node -- -j12 -l12
+[1.756s] [ 85%] Built target turtlebot3_node_lib
+[1.756s] [100%] Built target turtlebot3_ros
+[1.767s] Invoked command in '/home/student/sjowmm_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/sjowmm_ws/install/turtlebot3_teleop:/home/student/sjowmm_ws/install/turtlebot3_example:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/path_projection:/home/student/sjowmm_ws/install/nav2_gazebo_spawner:/home/student/sjowmm_ws/install/green_turtle:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy /usr/bin/cmake --build /home/student/sjowmm_ws/build/turtlebot3_node -- -j12 -l12
+[1.960s] Invoking command in '/home/student/sjowmm_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/sjowmm_ws/install/turtlebot3_teleop:/home/student/sjowmm_ws/install/turtlebot3_example:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/path_projection:/home/student/sjowmm_ws/install/nav2_gazebo_spawner:/home/student/sjowmm_ws/install/green_turtle:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy /usr/bin/cmake --install /home/student/sjowmm_ws/build/turtlebot3_node
+[1.985s] -- Install configuration: ""
+[1.985s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/param
+[1.985s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[1.985s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[1.985s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[1.985s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[1.985s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[1.985s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[1.986s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[1.986s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[1.986s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[1.986s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[1.986s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[1.986s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[1.986s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[1.986s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[1.986s] -- Installing: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[1.986s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[1.986s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.987s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[1.987s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[1.987s] -- Up-to-date: /home/student/sjowmm_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[2.022s] Invoked command in '/home/student/sjowmm_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/sjowmm_ws/install/turtlebot3_teleop:/home/student/sjowmm_ws/install/turtlebot3_example:/home/student/sjowmm_ws/install/simulation:/home/student/sjowmm_ws/install/path_projection:/home/student/sjowmm_ws/install/nav2_gazebo_spawner:/home/student/sjowmm_ws/install/green_turtle:/home/student/sjowmm_ws/install/dede:/opt/ros/foxy /usr/bin/cmake --install /home/student/sjowmm_ws/build/turtlebot3_node

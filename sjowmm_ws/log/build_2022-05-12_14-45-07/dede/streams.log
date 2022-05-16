@@ -1,0 +1,20 @@
+[1.453s] Invoking command in '/home/student/sjowmm_ws/src/dede': PYTHONPATH=/home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dede build --build-base /home/student/sjowmm_ws/build/dede/build install --prefix /home/student/sjowmm_ws/install/dede --record /home/student/sjowmm_ws/build/dede/install.log --single-version-externally-managed
+[1.838s] running egg_info
+[1.839s] writing ../../build/dede/dede.egg-info/PKG-INFO
+[1.839s] writing dependency_links to ../../build/dede/dede.egg-info/dependency_links.txt
+[1.839s] writing entry points to ../../build/dede/dede.egg-info/entry_points.txt
+[1.839s] writing requirements to ../../build/dede/dede.egg-info/requires.txt
+[1.840s] writing top-level names to ../../build/dede/dede.egg-info/top_level.txt
+[1.878s] reading manifest file '../../build/dede/dede.egg-info/SOURCES.txt'
+[1.879s] writing manifest file '../../build/dede/dede.egg-info/SOURCES.txt'
+[1.880s] running build
+[1.880s] running build_py
+[1.880s] running install
+[1.881s] running install_lib
+[1.882s] running install_data
+[1.883s] running install_egg_info
+[1.885s] removing '/home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages/dede-0.0.0-py3.8.egg-info' (and everything under it)
+[1.885s] Copying ../../build/dede/dede.egg-info to /home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages/dede-0.0.0-py3.8.egg-info
+[1.886s] running install_scripts
+[1.901s] writing list of installed files to '/home/student/sjowmm_ws/build/dede/install.log'
+[2.136s] Invoked command in '/home/student/sjowmm_ws/src/dede' returned '0': PYTHONPATH=/home/student/sjowmm_ws/install/dede/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dede build --build-base /home/student/sjowmm_ws/build/dede/build install --prefix /home/student/sjowmm_ws/install/dede --record /home/student/sjowmm_ws/build/dede/install.log --single-version-externally-managed
